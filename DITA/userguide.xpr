@@ -6,6 +6,26 @@
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
+                        <String>Git_client_plugin_preferences_page</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.actions.folder</String>
+                        <String>${pd}/positron-custom-actions</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.load.default.actions</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>Positron_addon_preferences_engine_page</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
+                        <String>Positron_addon_preferences_page</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>ask.open.ditamap.in.dita.manager</String>
                         <Integer>0</Integer>
                     </entry>

@@ -1,0 +1,12 @@
+{
+  "id": "add.similar.markup",
+  "title": "Add similar markup",
+  "description": "Add markup similar to the one in the surrounding context.", 
+  "type": "replace-selection-with-fragment",
+  "context": "Add DITA XML markup to the selected content in a manner similar to its surrounding context. Answer without additional explanations and without codeblock markers like ```xml.",
+  "parameters": {
+    "function_refs": [
+      {"ref": "get_content_around_caret"}
+    ]
+  }
+}

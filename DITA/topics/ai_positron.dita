@@ -23,14 +23,16 @@
       <p id="p_mms_dm5_pyb">In a simplified form, technical documentation is often done in two
         stages: analysis and implementation. In the analysis stage, technical writers could use
         various resources such as web searches, ChatGPT, or discussions with colleagues or engineers
-        to further understand the subject that needs to be documented. In the second stage,
-        technical writers would use tools such as <ph keyref="product"/> to write the actual
-        content.</p>
+        to further understand the subject that needs to be documented.
+        <?oxy_comment_start author="AI Positron" comment="Inconsistent terminology. Previously referred to as &apos;analysis stage&apos;, should be &apos;implementation stage&apos; for consistency."?>And
+        in the last stage<?oxy_comment_end?>, technical writers would use tools such as <ph
+          keyref="product"/> to write the actual content.</p>
       <p id="p_nms_dm5_pyb">The <uicontrol>Oxygen AI Positron Assistant</uicontrol> add-on provides
-        various ways to use <uicontrol>ChatGPT</uicontrol> to help writers while editing or
-        reviewing the technical documentation. For example, it can be used to receive hints about
-        what to write next, improve the readability of content, or re-structure the content in
-        various ways.</p>
+        <?oxy_comment_start author="AI Positron" comment="Redundant wording. &apos;many&apos; and &apos;various&apos; mean the same thing."?>many
+        various<?oxy_comment_end?> ways to use <uicontrol>ChatGPT</uicontrol> to help writers while
+        editing or reviewing the technical documentation. For example, it can be used to receive
+        hints about what to write next, improve the readability of content, or re-structure the
+        content in various ways.</p>
       <p>
         <note id="note_qpr_zj4_2xb">Content received from the <uicontrol>OpenAI ChatGPT</uicontrol>
           model may be inaccurate or contain misleading information, so it needs to be thoroughly

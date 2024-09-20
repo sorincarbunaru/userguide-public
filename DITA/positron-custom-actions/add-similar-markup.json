@@ -8,5 +8,6 @@
     "function_refs": [
       {"ref": "get_content_around_caret"}
     ]
-  }
+  },
+  "embed-assist": true
 }

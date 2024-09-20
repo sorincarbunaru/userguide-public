@@ -13,8 +13,8 @@
   <body>
     <p id="p_kdh_dgk_54b">The <b>Oxygen AI Positron Assistant Enterprise</b> add-on provides
       advanced AI-support for technical documentation writers throughout their content creation
-      process by using a company-specific AI service, by configuring the company's specific OpenAI,
-      Microsoft Azure OpenAI, or Anthropic Claude connection.</p>
+      process by using a company-specific AI service, by configuring the company's specific
+      connection: OpenAI, Microsoft Azure OpenAI, Anthropic Claude.</p>
     <p>A detailed list of actions and functionality available in the add-on is presented in the
         <xref href="ai_positron.dita"/> topic.</p>
     <section id="section_kgh_fzg_rsb">

@@ -199,7 +199,9 @@
 &lt;/configuration></codeblock>The logging information will be copied in the
           <filepath>Desktop/oxygenLog</filepath> folder once the application is started. To avoid
         performance problems, the <codeph>logback.xml</codeph> file must be deleted once the logging
-        has been obtained.</note>
+        has been obtained.<p>
+          <note>You must restart the application for your changes to be applied.</note>
+        </p></note>
     </section>
   </body>
 </topic>

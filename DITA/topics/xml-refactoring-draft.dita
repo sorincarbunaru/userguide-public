@@ -12,13 +12,12 @@
             way to revert the operations once they are finished. Additionally, the tool cannot
             preserve CDATA sections in the XML documents.</p>
         
-        <p>The tool is avaialble in Tools > XML Refactoring... and it presents a dialog, more
-            precisly a wizard.  These images present the flow of the operation.</p>
+        <p>The tool is avaialble in Tools > XML Refactoring... and it presents a wizard dialog box.
+      The following images present the steps of the operation.</p>
             <image href="../img/xmlrefactoring_step1.png" id="image_oj5_hsc_wcc"/>
             <image href="../img/xmlrefactoring_step2.png" id="image_pj5_hsc_wcc"/>
             <image href="../img/xmlrefactoring_step3.png" id="image_qj5_hsc_wcc"/>
             <image href="../img/xmlrefactoring_preview.png" id="image_nj5_hsc_wcc"/>
-        <p/>
     </body>
     <related-links>
         <link href="similar-converting-between-schema-languages.dita"/>

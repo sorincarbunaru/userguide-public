@@ -54,6 +54,10 @@
         enable this direct access. You can use the <uicontrol>Register</uicontrol> button in the
           <uicontrol>AI Positron Assistant</uicontrol> side view to configure the special license
         key.</p>
+    <note type="important" id="note_dmr_jqx_fdc">If you want to use the default <uicontrol>Oxygen AI
+        Positron</uicontrol> service instead of a company-specific AI service, the <xref
+        href="ai_positron.dita"/> add-on needs to be installed and used instead of the one listed
+      above.</note>
   </body>
   <related-links>
     <link href="ai_positron.dita"/>

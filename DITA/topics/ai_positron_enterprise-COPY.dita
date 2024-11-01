@@ -62,8 +62,6 @@
       <note id="note_gbn_ryb_qbc" type="note">If you are an integrator using the Web Author
         Component in your own solution and you want to license the <uicontrol>AI Positron Enterprise
           for Web Author</uicontrol>, you can set a dedicated license server for AI Positron.</note>
-    <note id="note_pf2_fcw_fdc">You must restart the application for your changes to be
-      applied.</note>
   </body>
   <related-links>
     <link href="ai_positron.dita"/>

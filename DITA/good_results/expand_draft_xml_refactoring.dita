@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="xml-refactoring">
+  <title>XML Refactoring</title>
+  <body>
+    <p id="p_intro">The XML Refactoring tool in Oxygen XML Editor (available in the Tools menu)
+      helps manage the structure of XML documents by allowing users to perform various structure
+      management tasks such as inserting, deleting, or renaming attributes in all instances of a
+      particular element. The tool is presented as a wizard with multiple pages, including options
+      to configure operation parameters and select the scope and filters for the operation. Users
+      can preview the changes before applying them, but there is no automatic way to revert the
+      operations once they are finished. Additionally, the tool cannot preserve CDATA sections in
+      the XML documents.</p>
+    <p id="p_access">The tool is available in <uicontrol>Tools > XML Refactoring...</uicontrol> and
+      it presents a wizard dialog box. The following images present the steps of the operation.</p>
+    <fig id="fig_step1">
+      <title>Step 1: Select a Refactoring Operation</title>
+      <image href="../img/xmlrefactoring_step1.png" id="image_step1"/>
+      <p id="p_step1_desc">In this step, you can select the refactoring operation you want to
+        perform. The available operations include:</p>
+      <dl id="dl_step1">
+        <dlentry id="dlentry_delete_element">
+          <dt><uicontrol>Delete element</uicontrol></dt>
+          <dd>Deletes one or more elements.</dd>
+        </dlentry>
+        <dlentry id="dlentry_delete_element_content">
+          <dt><uicontrol>Delete element content</uicontrol></dt>
+          <dd>Deletes the content of one or more elements.</dd>
+        </dlentry>
+      </dl>
+    </fig>
+    <fig id="fig_step2">
+      <title>Step 2: Specify XPath Expression</title>
+      <image href="../img/xmlrefactoring_step2.png" id="image_step2"/>
+      <p id="p_step2_desc">In this step, you need to specify an XPath expression that identifies one
+        or more elements to be deleted. For example:</p>
+      <codeblock id="codeblock_xpath_example">//ol</codeblock>
+    </fig>
+    <fig id="fig_step3">
+      <title>Step 3: Select Scope and Filters</title>
+      <image href="../img/xmlrefactoring_step3.png" id="image_step3"/>
+      <p id="p_step3_desc">In this step, you can select the resources affected by the XML
+        Refactoring operation. The available options include:</p>
+      <dl id="dl_step3">
+        <dlentry id="dlentry_scope">
+          <dt><uicontrol>Scope</uicontrol></dt>
+          <dd>
+            <ul id="ul_scope_options">
+              <li id="li_current_file"><uicontrol>Current File</uicontrol></li>
+              <li id="li_project"><uicontrol>Project</uicontrol></li>
+              <li id="li_selected_project_resources"><uicontrol>Selected project
+                  resources</uicontrol></li>
+              <li id="li_all_opened_files"><uicontrol>All opened files</uicontrol></li>
+              <li id="li_current_dita_map_hierarchy"><uicontrol>Current DITA map
+                  hierarchy</uicontrol></li>
+              <li id="li_opened_archive"><uicontrol>Opened archive</uicontrol></li>
+              <li id="li_working_sets"><uicontrol>Working sets</uicontrol></li>
+            </ul>
+          </dd>
+        </dlentry>
+        <dlentry id="dlentry_filters">
+          <dt><uicontrol>Filters</uicontrol></dt>
+          <dd>
+            <ul id="ul_filter_options">
+              <li id="li_restrict_to_known_xml"><uicontrol>Restrict to known XML file types
+                  only</uicontrol></li>
+              <li id="li_look_inside_archives"><uicontrol>Look inside archives</uicontrol></li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl>
+    </fig>
+    <fig id="fig_preview">
+      <title>Step 4: Preview Changes</title>
+      <image href="../img/xmlrefactoring_preview.png" id="image_preview"/>
+      <p id="p_preview_desc">In this step, you can preview the changes before applying them. The
+        preview shows the differences between the original and the modified XML documents.</p>
+    </fig>
+  </body>
+  <related-links>
+    <link href="similar-converting-between-schema-languages.dita"/>
+  </related-links>
+</topic>

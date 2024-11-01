@@ -55,13 +55,6 @@
         enable this direct access. You can use the <uicontrol>Register</uicontrol> button in the
           <uicontrol>AI Positron Assistant</uicontrol> side view to configure the special license
         key.</p>
-      <note type="important">If you want to use the default <uicontrol>Oxygen AI
-          Positron</uicontrol> service instead of a company-specific AI service, the <xref
-          href="ai_positron.dita"/> add-on needs to be installed and used instead of the one listed
-        above.</note>
-      <note id="note_gbn_ryb_qbc" type="note">If you are an integrator using the Web Author
-        Component in your own solution and you want to license the <uicontrol>AI Positron Enterprise
-          for Web Author</uicontrol>, you can set a dedicated license server for AI Positron.</note>
   </body>
   <related-links>
     <link href="ai_positron.dita"/>

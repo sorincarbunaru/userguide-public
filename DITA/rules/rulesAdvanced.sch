@@ -79,6 +79,13 @@
     </sch:rule>
   </sch:pattern>
   
+  <sch:pattern>
+    <sch:rule context="topic/shortdesc">
+      <sch:report test="count(tokenize(., '\s+')) > 15" role="warn">The
+        short description must be concise, max 1 or 2 sentences. </sch:report>
+    </sch:rule>
+  </sch:pattern>
+  
   <!-- Report if link text same as @href value -->
   <sch:pattern>
     <sch:rule context="*[contains(@class, ' topic/xref ') or contains(@class, ' topic/link ')]">

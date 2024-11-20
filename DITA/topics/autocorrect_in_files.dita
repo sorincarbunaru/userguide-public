@@ -3,9 +3,10 @@
 <topic id="autocorrect_in_files">
     <title>AutoCorrect in Files</title>
     <body>
-        <p>A new Action was added to Oxygen, called "AutoCorrect in Files...". It works similar to
-      "Check Spelling in Files...", showing an almost identical dialog box. The main difference is
-      that it performs automatic corrections on the misspelled words.</p>
+        <p>A new action was added to Oxygen, called <uicontrol>AutoCorrect in Files...</uicontrol>.
+            It works similar to <uicontrol>Check Spelling in Files...</uicontrol>, showing an almost
+            identical dialog box. The main difference is that it performs automatic corrections on
+            the misspelled words.</p>
     </body>
   <related-links>
     <link href="spell-check-in-files.dita"/>

@@ -80,7 +80,9 @@
     <deliverable id="d-WebAuthor_to_WebHelp-1707657951978" name="WebAuthor to WebHelp">
         <context idref="EOiallJqGqBfrjc"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        </publication>
     </deliverable>
     <deliverable id="d-WebAuthor_PDF-1707718939846" name="WebAuthor PDF">
         <context idref="EOiallJqGqBfrjc"/>

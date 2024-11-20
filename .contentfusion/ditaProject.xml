@@ -66,7 +66,9 @@
     <deliverable id="Oxygen_XML_Author_WebHelp-1704797699143" name="Oxygen XML Author WebHelp">
         <context idref="ysgUCzFQnmzwQKO"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        </publication>
     </deliverable>
     <deliverable id="d-Oxygen_XML_Author_PDF-1707133381302" name="Oxygen XML Author PDF">
         <context idref="ysgUCzFQnmzwQKO"/>

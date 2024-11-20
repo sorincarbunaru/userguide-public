@@ -94,6 +94,8 @@
     <deliverable id="d-DITA_Map_WebHelp_Responsive_-_WebHelp_Responsive-1707724761854" name="WebHelp - WebHelp Responsive User Guide">
         <context idref="nxNrocAgVEVPufq"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        </publication>
     </deliverable>
 </project>

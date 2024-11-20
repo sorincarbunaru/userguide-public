@@ -87,7 +87,9 @@
     <deliverable id="d-WebAuthor_PDF-1707718939846" name="WebAuthor PDF">
         <context idref="EOiallJqGqBfrjc"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
+        </publication>
     </deliverable>
     <deliverable id="d-DITA_Map_WebHelp_Responsive_-_WebHelp_Responsive-1707724761854" name="WebHelp - WebHelp Responsive User Guide">
         <context idref="nxNrocAgVEVPufq"/>

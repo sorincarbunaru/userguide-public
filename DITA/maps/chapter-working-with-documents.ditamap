@@ -116,6 +116,7 @@
     <topicref href="../topics/autocorrect.dita"
       product="author editor authorEclipse editorEclipse json" collection-type="sequence">
       <topicref href="../topics/add-dictionaries-for-autocorrect.dita"/>
+      <topicref href="../topics/autocorrect_in_files.dita"/>
     </topicref>
     <topicref href="../topics/working-with-special-characters.dita" collection-type="sequence">
       <topicref href="../topics/working-with-unicode.dita"/>

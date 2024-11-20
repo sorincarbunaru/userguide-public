@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="licensing_oxygen_ai_positron_assistant_enterprise">
+    <title>Licensing for Oxygen AI Positron Assistant Enterprise</title>
+    <shortdesc>Information about licensing requirements for the Oxygen AI Positron Assistant Enterprise add-on.</shortdesc>
+    <conbody>
+        <p>The <uicontrol>AI Positron Enterprise</uicontrol> add-on works free of charge with any <ph keyref="product"/> installation using an <b>Enterprise</b> license type for <ph keyref="product"/>.</p>
+        <p>If your license of <ph keyref="product"/> is not an <b>Enterprise</b> license, <xref href="https://www.oxygenxml.com/ai_positron/buy.html?licenseType=enterprise" format="html" scope="external">a special license key</xref> needs to be purchased for the add-on to enable this direct access. You can use the <uicontrol>Register</uicontrol> button in the <uicontrol>AI Positron Assistant</uicontrol> side view to configure the special license key.</p>
+        <p>If you don't have an Enterprise license, then you need to buy a yearly Enterprise subscription from <xref href="https://www.oxygenxml.com/ai_positron/buy.html#ai-positron-enterprise" format="html" scope="external"/>.</p>
+    </conbody>
+</concept>

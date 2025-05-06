@@ -4,15 +4,14 @@
     <title>XML Refactoring</title>
     <body>
         <p>The XML Refactoring tool in Oxygen XML Editor (available in the Tools menu) helps manage
-            the structure of XML documents by allowing users to perform various structure management
-            tasks such as inserting, deleting, or renaming attributes in all instances of
-            aparticular element. The tool is presented as a wizard with multiple pages, including
-            options to configure operation parameters and select the scope and filters for the
-            operation. Users can preview the changes before applying them, but there is no automatic
-            way to revert the operations once they are finished. Additionally, the tool cannot
-            preserve CDATA sections in the XML documents.</p>
+      the structure of XML documents by allowing users to perform various structure management tasks
+      such as inserting, deleting, or renaming attributes in all instances of a particular element.
+      The tool is presented as a wizard with multiple pages, including options to configure
+      operation parameters and select the scope and filters for the operation. Users can preview the
+      changes before applying them, but there is no automatic way to revert the operations once they
+      are finished. Additionally, the tool cannot preserve CDATA sections in the XML documents.</p>
         
-        <p>The tool is avaialble in Tools > XML Refactoring... and it presents a wizard dialog box.
+        <p>The tool is available in Tools > XML Refactoring... and it presents a wizard dialog box.
       The following images present the steps of the operation.</p>
             <image href="../img/xmlrefactoring_step1.png" id="image_oj5_hsc_wcc"/>
             <image href="../img/xmlrefactoring_step2.png" id="image_pj5_hsc_wcc"/>

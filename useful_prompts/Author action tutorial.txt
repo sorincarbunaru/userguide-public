@@ -1,0 +1,2 @@
+Based on the information from the local project about Oxygen frameworks/document types customization, create a tutorial describing how to create a new Author action in a framework over an existing Author operation (e.g. InsertFragmentOperation).
+Write the tutorial in DITA and create a file on the disk next to the currently opened document.

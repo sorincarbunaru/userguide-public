@@ -36,17 +36,17 @@
                 <li id="li_xy4_bgk_54b">The <term>AutoCorrect</term> mechanism takes into account
                     <term>AutoCorrect</term> dictionaries collected both from the default and custom
                   locations and multiple dictionaries from the same language are merged (for
-                  example, <filepath>en_UK.dat</filepath> from the default location is merged with
-                    <filepath>en_US.dat</filepath> from a custom location).</li>
+                  example, <codeph>en_UK.dat</codeph> from the default location is merged with
+                    <codeph>en_US.dat</codeph> from a custom location).</li>
                 <li id="li_yy4_bgk_54b">If you have a generic <term>AutoCorrect</term> dictionary file (one that just
                   has a two-letter language code for its file name, such as
-                    <filepath>en.dat</filepath>) saved in either the default or custom location, the
-                  other more specific dictionaries (for example, <filepath>en_UK.dat</filepath> and
-                    <filepath>en_US.dat</filepath>) will not be merged and the existing generic
+                    <codeph>en.dat</codeph>) saved in either the default or custom location, the
+                  other more specific dictionaries (for example, <codeph>en_UK.dat</codeph> and
+                    <codeph>en_US.dat</codeph>) will not be merged and the existing generic
                   dictionary will simply be used instead.</li>
                 <li id="li_nf2_tgq_sqb">You can use a custom suffix in the dictionary file name
-                  after the language code. For example, <filepath>en_US_synopsys.dat</filepath> or
-                    <filepath>en_synopsys.dat</filepath>.</li>
+                  after the language code. For example, <codeph>en_US_synopsys.dat</codeph> or
+                    <codeph>en_synopsys.dat</codeph>.</li>
                 <li id="li_zy4_bgk_54b">If the additional location contains a file with the same name as one from the
                   default location, the file in the additional location takes precedence over the
                   file from the default location.</li>

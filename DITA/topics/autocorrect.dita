@@ -31,17 +31,17 @@
         it expands and you can click it to present a drop-down list that includes the following
           actions:<ul id="ul_blg_ymv_ps">
           <li id="li_zp5_bgk_54b"
-              ><?oxy_comment_start author="SorinCarbunaru" timestamp="20250509T153635+0300" comment="&quot;[original word]&quot; should be written as &quot;[ORIGINAL_WORD]&quot;, to make it clear it&apos;s just a placeholder"?><uicontrol>Change
+              ><?oxy_comment_start author="SorinCarbunaru" timestamp="20250509T162423+0300" comment="&quot;[original word]&quot; should be written as &quot;[ORIGINAL_WORD]&quot;, to make it clear it&apos;s just a placeholder"?><uicontrol>Change
               back to "[original word]"</uicontrol> - Reverts the correction back to its original
             form.</li>
           <li id="li_aq5_bgk_54b"><uicontrol>Stop Automatically Correcting "[original
-              word]"</uicontrol><?oxy_comment_end?> - This option is presented if the correction is
-            performed based on the <xref
+              word]"</uicontrol> - This option is presented if the correction is performed based on
+            the <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page/replacements-section"
                 ><i>AutoCorrect Replacements Table</i></xref> and selecting it will delete the
             corresponding entry from the Replacements Table.</li>
-          <li id="li_bq5_bgk_54b"><uicontrol>Learn Word "[original word]"</uicontrol> - This option
-            is presented if the <xref
+          <li id="li_bq5_bgk_54b"><uicontrol>Learn Word "[original
+            word]"</uicontrol><?oxy_comment_end?> - This option is presented if the <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page/use-spell-check"
                 ><uicontrol>Use additional suggestions from the spell checker</uicontrol>
               option</xref> is selected in the <xref

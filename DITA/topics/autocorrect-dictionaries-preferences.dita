@@ -74,6 +74,8 @@
                   Options</uicontrol></xref> at the bottom of the page.</note></dd>
         </dlentry>
       </dl></p>
+    <note id="note_opr_bws_gfc">Changing any of the above options will require you to restart the
+      application.</note>
   </body>
   <related-links>
       <link href="add-dictionaries-for-autocorrect.dita#add-dictionaries-for-autocorrect"/>

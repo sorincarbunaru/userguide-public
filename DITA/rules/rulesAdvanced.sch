@@ -2,10 +2,11 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron"
   xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  
   queryBinding="xslt2">
   <sch:ns uri="http://www.oxygenxml.com/customFunction" prefix="oxyF"/>
-   
+  <sch:ns uri="http://www.oxygenxml.com/ai/function" prefix="ai"/>
+  <sch:ns uri="http://www.w3.org/2005/xpath-functions" prefix="fn"/>
+  
    <!--<sch:pattern is-a="avoidWordInElement">
       <sch:param name="word" value="oXygen"/>
       <sch:param name="element" value="indexterm"/>
@@ -83,6 +84,21 @@
     <sch:rule context="topic/shortdesc">
       <sch:report test="count(tokenize(., '\s+')) > 15" role="warn">The
         short description must be concise, max 1 or 2 sentences. </sch:report>
+    </sch:rule>
+  </sch:pattern>
+  
+  <!-- =================================================== CALL SHORT DESCRIPTION ==================================================================== -->
+  <sch:pattern>
+    <sch:rule context="topic">
+      <sch:report 
+        test="not(shortdesc)"
+        role="warn"
+        sqf:fix="generate_shortdesc">The short description is missing...
+      </sch:report>
+      <sqf:fix id="generate_shortdesc">
+        <sqf:description><sqf:title>Call "Short Description" Positron action</sqf:title></sqf:description>
+        <sqf:add match="title" position="after" select="fn:parse-xml(ai:invoke-action('action.short.description', '', .))"/>
+      </sqf:fix>
     </sch:rule>
   </sch:pattern>
   

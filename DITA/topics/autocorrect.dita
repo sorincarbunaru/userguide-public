@@ -11,61 +11,37 @@
     </metadata>
   </prolog>
   <body>
-    <p id="p_rp5_bgk_54b"><ph keyref="product"/> includes an <term>AutoCorrect</term> feature to automatically correct
+    <p id="p_rp5_bgk_54b"
+        ><?oxy_comment_start author="SorinCarbunaru" timestamp="20250509T154010+0300" comment="Ask @Adrian if this is 100% correct."?><ph
+        keyref="product"/> includes an <term>AutoCorrect</term> feature to automatically correct
       misspelled words, as well as to insert certain symbols or other text, as you type in
         <uicontrol>Author</uicontrol> mode. <ph keyref="product"/> includes a default list of
       commonly misspelled words and symbols, but you can modify the list to suit your needs. You can
       also choose to have the <term>AutoCorrect</term> feature use suggestions from the main spell
       checker. The suggestions will only be used if the misspelled words are not found in the <xref
         href="autocorrect-preferences-page.dita#autocorrect-preferences-page/replacements-section"
-          ><i>Replacements Table</i></xref>.</p>
-    <p id="p_sp5_bgk_54b">When enabled, the <term>AutoCorrect</term> feature can be used to do the following:<ul
-        id="ul_qhy_ywy_qr">
-        <li id="li_tp5_bgk_54b">Automatically correct misspelled words while you edit in <uicontrol>Author</uicontrol>
-          mode. The actual operation of replacing a word is triggered by a space, dash, or certain
-          punctuation characters (<userinput>,</userinput>
-          <userinput>.</userinput>
-          <userinput>;</userinput>
-          <userinput>:</userinput>
-          <userinput>?</userinput>
-          <userinput>!</userinput>
-          <userinput>'</userinput>
-          <userinput>"</userinput>
-          <userinput>)</userinput>
-          <userinput>]</userinput>
-          <userinput>}</userinput>).</li>
-        <li id="li_up5_bgk_54b">Easily insert symbols. For example, if you want to insert a
-            <systemoutput>®</systemoutput> character, you would type
-          <userinput>(R)</userinput>.</li>
-        <li id="li_vp5_bgk_54b">Quickly insert text fragments.</li>
-        <li id="li_wp5_bgk_54b">Quickly insert XML fragments. For example, if you enter a hyphen (<b>-</b>) in an empty
-          paragraph followed by a space, it will automatically be converted to a list with a list
-          item.</li>
-      </ul></p>
-    <p id="p_xp5_bgk_54b"><term>AutoCorrect</term> is enabled by default. To configure this feature, <ph
-        conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to <menucascade>
-        <uicontrol>Editor</uicontrol>
-        <uicontrol>Edit Modes</uicontrol>
-        <uicontrol>Author</uicontrol>
-        <uicontrol>AutoCorrect</uicontrol>
-      </menucascade>.</p>
+          ><i>Replacements Table</i></xref>.<?oxy_comment_end?></p>
     <section id="section_yhd_4pv_zjb">
       <title>AutoCorrect Drop-down Actions</title>
-      <p id="p_yp5_bgk_54b">After the automatic operation of replacing a misspelled word (triggered by a space, dash,
-        or certain punctuation characters), the affected string is highlighted. The highlight is
-        removed upon the next editing action (text insertion or deletion). If you hover over the
-        highlight, a small widget appears below the word. If you hover over the widget, it expands
-        and you can click it to present a drop-down list that includes the following actions:<ul
-          id="ul_blg_ymv_ps">
-          <li id="li_zp5_bgk_54b"><uicontrol>Change back to "[original word]"</uicontrol> - Reverts the correction back
-            to its original form.</li>
-          <li id="li_aq5_bgk_54b"><uicontrol>Stop Automatically Correcting "[original word]"</uicontrol> - This option
-            is presented if the correction is performed based on the <xref
+      <p id="p_yp5_bgk_54b">After the automatic operation of replacing a misspelled word (triggered
+        by a space, dash, or certain punctuation characters), the affected string is highlighted.
+        The highlight is removed upon the next editing action (text insertion or deletion). If you
+        hover over the highlight, a small widget appears below the word. If you hover over
+        <?oxy_comment_start author="SorinCarbunaru" timestamp="20250509T153327+0300" comment="Who is it? Find that in the context and clearly mention that." id="c5r_cvt_gfc"?><?oxy_comment_start author="SorinCarbunaru" timestamp="20250509T155428+0300" parentID="c5r_cvt_gfc" comment="Also avoid starting this sentence with &quot;If you hover over&quot;, as the previous sentence also starts." mid="2"?>it<?oxy_comment_end mid="2"?><?oxy_comment_end?>,
+        it expands and you can click it to present a drop-down list that includes the following
+          actions:<ul id="ul_blg_ymv_ps">
+          <li id="li_zp5_bgk_54b"
+              ><?oxy_comment_start author="SorinCarbunaru" timestamp="20250509T153635+0300" comment="&quot;[original word]&quot; should be written as &quot;[ORIGINAL_WORD]&quot;, to make it clear it&apos;s just a placeholder"?><uicontrol>Change
+              back to "[original word]"</uicontrol> - Reverts the correction back to its original
+            form.</li>
+          <li id="li_aq5_bgk_54b"><uicontrol>Stop Automatically Correcting "[original
+              word]"</uicontrol><?oxy_comment_end?> - This option is presented if the correction is
+            performed based on the <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page/replacements-section"
                 ><i>AutoCorrect Replacements Table</i></xref> and selecting it will delete the
             corresponding entry from the Replacements Table.</li>
-          <li id="li_bq5_bgk_54b"><uicontrol>Learn Word "[original word]"</uicontrol> - This option is presented if the
-              <xref
+          <li id="li_bq5_bgk_54b"><uicontrol>Learn Word "[original word]"</uicontrol> - This option
+            is presented if the <xref
               href="autocorrect-preferences-page.dita#autocorrect-preferences-page/use-spell-check"
                 ><uicontrol>Use additional suggestions from the spell checker</uicontrol>
               option</xref> is selected in the <xref
@@ -85,29 +61,6 @@
         </fig>
       </p>
     </section>
-    <section id="section_jdg_spv_zjb">
-      <title>AutoCorrect Case-Sensitivity</title>
-      <p id="p_eq5_bgk_54b">The <term>AutoCorrect</term> feature results in the following types of substitutions
-        regarding case-sensitivity:<ul id="ul_kkn_4j1_sr">
-          <li id="li_fq5_bgk_54b">Words with all lower-case characters will be replaced with
-            lower-case substitutions (for example, "<i>abotu</i>" is replaced with
-            "<i>about</i>").</li>
-          <li id="li_gq5_bgk_54b">Words with irregular-case characters will be replaced with
-            lower-case substitutions ("<i>ABotU</i>" is replaced with "<i>about</i>").</li>
-          <li id="li_hq5_bgk_54b">Words with all upper-case characters will be replaced with
-            upper-case substitutions ("<i>ABOTU</i>" is replaced with "<i>ABOUT</i>").</li>
-          <li id="li_iq5_bgk_54b">Words starting with an upper-case character will be replaced with
-            substitutions having the same pattern ("<i>Abotu</i>" is replaced with
-            "<i>About</i>").</li>
-        </ul></p>
-    </section>
-    <p id="p_jq5_bgk_54b">
-      <note id="note_kq5_bgk_54b">The <term>AutoCorrect</term> feature also uses the list of <xref
-          href="preferences-editor-spell-check.dita#preferences-editor-spell-check/ignore-elements-section"
-            ><uicontrol>ignored elements from the Spell Check preferences page</uicontrol></xref>.
-        All elements (along with their descendant elements) included in this list will be ignored by
-        the <term>AutoCorrect</term> engine.</note>
-    </p>
   </body>
   <related-links>
       <link href="using-check-spelling.dita#using-check-spelling"/>

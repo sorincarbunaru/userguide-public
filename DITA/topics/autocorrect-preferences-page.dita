@@ -10,7 +10,11 @@
       </keywords>
     </metadata>
   </prolog>
+  <shortdesc>Discover how to customize AutoCorrect preferences to enhance your typing efficiency.
+    Learn to adjust settings for automatic corrections, replacements, and formatting tailored to
+    your needs. Simplify your workflow with personalized AutoCorrect options.</shortdesc>
   <body>
+    <p/>
     <p id="p_wx4_bgk_54b"><ph keyref="product"/> includes an option to automatically correct misspelled words as you
       type in <uicontrol>Author</uicontrol> mode. To enable and configure this <xref
         href="autocorrect.dita#autocorrect"><term>AutoCorrect</term> feature</xref>, <ph
@@ -52,13 +56,13 @@
                       for each document type. For example, for default DITA, DocBook, and TEI
                       documents, entering a hyphen (-) followed by a space in an empty paragraph
                       will automatically insert a list element with an empty list item element
-                      inside. The configuration file is located at: <filepath><term
+                      inside. The configuration file is located at: <codeph><term
                           conkeyref="reusables-user-guide/oxy-install-dir"
-                        />/frameworks/[DOC_TYPE]/resources/structureAutocorrect.xml</filepath>.</p>
+                        />/frameworks/[DOC_TYPE]/resources/structureAutocorrect.xml</codeph>.</p>
                     <p id="p_ey4_bgk_54b">
                       <note type="tip" id="note_fy4_bgk_54b"
                         product="author editor authorEclipse editorEclipse">By default, the
-                          <filepath>structureAutocorrect.xml</filepath> file only exists for DITA,
+                          <codeph>structureAutocorrect.xml</codeph> file only exists for DITA,
                         DocBook, and TEI frameworks, but it is possible to customize your own markup
                         correction rules for your particular document type. For details, see <xref
                           href="customizing-structure-insertion.dita"/>.</note>
@@ -110,16 +114,18 @@
           <dd>You can also choose to automatically convert double and single quotes to a quotation
             character of your choice by using the following options in the <uicontrol>Smart
               quotes</uicontrol> section:<ul id="ul_g41_hpy_qr">
-              <li id="li_ny4_bgk_54b"><uicontrol>Replace "Single quotes"</uicontrol> - Replaces single quotes with the
-                quotation symbols you select with the <uicontrol>Start quote</uicontrol> and
+                <li id="li_ny4_bgk_54b"><uicontrol>Replace "Single quotes"</uicontrol> - Replaces single quotes with the
+                  quotation symbols you select with the <uicontrol>Start quote</uicontrol> and
                   <uicontrol>End quote</uicontrol> buttons.</li>
+              </ul>
+            <ul>
               <li id="li_oy4_bgk_54b"><uicontrol>Replace "Double quotes"</uicontrol> - Replaces double quotes with the
                 quotation symbols you select with the <uicontrol>Start quote</uicontrol> and
-                  <uicontrol>End quote</uicontrol> buttons.</li>
+                <uicontrol>End quote</uicontrol> buttons.</li>
             </ul><note id="note_py4_bgk_54b">These <uicontrol>Smart quotes</uicontrol> options are ignored for content
               inside any element listed in the <xref
                 href="preferences-editor-spell-check.dita#preferences-editor-spell-check/ignore-elements-section"
-                  ><uicontrol>Ignore elements</uicontrol> section of the <uicontrol>Spell Check
+                ><uicontrol>Ignore elements</uicontrol> section of the <uicontrol>Spell Check
                   preferences page</uicontrol></xref>.</note></dd>
         </dlentry>
         <dlentry product="author editor json" id="dlentry_qy4_bgk_54b">
@@ -156,4 +162,8 @@
         </dlentry>
       </dl></p>
   </body>
+  <related-links>
+    <link href="add-dictionaries-for-autocorrect.dita#add-dictionaries-for-autocorrect"/>
+    <link format="html" href="https://www.oxygenxml.com/xml_author.html"></link>
+  </related-links>
 </topic>

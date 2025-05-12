@@ -18,8 +18,8 @@
       product="editor editorEclipse developer developerEclipse"/>
     <topicref href="../topics/xquery-debugger-perspective.dita"
       product="editor editorEclipse developer developerEclipse"/>
+    <topicref href="../topics/jsoniq-debugger-perspective.dita"/>
     <topicref href="../topics/database-perspective.dita"
       product="author developer editor authorEclipse developerEclipse editorEclipse"/>
-    <topicref href="../topics/jsoniq-debugger-perspective.dita"/>
   </topicref>
 </map>

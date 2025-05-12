@@ -1,3 +1,3 @@
 The JSONiq Debugger perspective allows you to detect problems in a JSONiq transformation by executing the process step by step in a controlled environment. It is fine-tuned for transforming and querying JSON content.
 
-The JSONiq Debugger is very similar to the XSLT Debugger and XQuery Debugger perspectives, so its documentation should be similar too. Use the published WebHelp content for more information about these debugger perspectives and to see how their topics are structured.
+The not-yet-documented JSONiq Debugger perspective is very similar to the already existing debugger perspectives, so its documentation should be similar too. Create only one single topic! Use only the published WebHelp content for more information about the XLST Debugger and XQuery Debugger perspectives and to see how their topics are written and structured, and try to replicate that and adapt for JSON and JSONiq. DO NOT LOOK INTO THE PROJECT FOR RELATED CONTENT!

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="untitled1">
+    <title>SPL (Structured Product Labeling)</title>
+    <body>
+    <p><b>SPL (Structured Product Labeling)</b> is an XML-based standard developed by the U.S. FDA
+      for the electronic submission of drug labeling information. It structures data about a
+      product’s ingredients, usage, warnings, and manufacturer in a machine-readable format,
+      ensuring consistency, regulatory compliance, and easy integration into health information
+      systems.</p>
+    <p>The following actions are available in this framework.</p>
+    <p conkeyref="reusables-author-actions/p_hm3_bgk_54b"/>
+    <p conkeyref="reusables-author-for-dita/p_qw3_bgk_54b"/>
+    </body>
+</topic>

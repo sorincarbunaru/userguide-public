@@ -1,0 +1,12 @@
+{
+  "id": "action.analyze.modularity",
+  "title": "Analyze modularity",
+  "type": "show-response",
+  "input-type": "markup",
+  "context": "Analyze the following DITA XML topic for modularity. Identify whether the content follows the principles of topic-based authoring, including clear topic types (concept, task, reference), limited scope, and a single purpose per topic. Then, suggest how this topic can be split into smaller, standalone modules according to DITA best practices, ensuring each resulting topic has a clearly defined purpose and is reusable across contexts.\n\nProvide:\n\n1. A summary of the modularity issues, if any.\n\n2.A recommended breakdown into smaller topics, including suggested topic titles and types (concept/task/reference).\n\n3.Rationale for how the modular breakdown improves reusability and clarity.",
+  "parameters": {
+    "function_refs": [
+      {"ref": "resolve_dita_key_or_content_reference"}
+    ]
+  }
+}

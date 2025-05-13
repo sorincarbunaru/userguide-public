@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="autocorrect_in_files">
+  <title>AutoCorrect in Files</title>
+  <body>
+    <p>The <uicontrol>AutoCorrect in Files...</uicontrol> action in Oxygen allows you to
+      automatically correct misspelled words across multiple files. This feature is similar to the
+        <uicontrol>Check Spelling in Files...</uicontrol> action, providing a nearly identical
+      dialog box. The primary distinction is that <uicontrol>AutoCorrect in Files...</uicontrol>
+      performs automatic corrections on the identified misspelled words.</p>
+    <p>The <uicontrol>AutoCorrect in Files...</uicontrol> action is available in the following
+      locations:</p>
+    <ul>
+      <li>The <uicontrol>Edit</uicontrol> menu.</li>
+      <li>The contextual menu of the <xref href="using-the-project-view.dita#using-the-project-view"
+            ><uicontrol>Project</uicontrol> view</xref>.</li>
+      <li>The contextual menu of the <xref href="dita-maps-manager.dita#dita-maps-manager"
+            ><uicontrol>DITA Maps Manager</uicontrol> view</xref>, when editing DITA documents.</li>
+    </ul>
+    <p>When you initiate the <uicontrol>AutoCorrect in Files...</uicontrol> action, a dialog box
+      appears, allowing you to define the scope and several other options for the operation. After
+      configuring the settings, click the <uicontrol>AutoCorrect All</uicontrol> button to apply
+      automatic corrections to all specified files.</p>
+    <p>The following scopes are possible, depending on where the action was invoked:</p>
+    <ul>
+      <li><uicontrol>All opened files</uicontrol> - The autocorrect is performed in all open
+        files.</li>
+      <li><uicontrol>Current file directory</uicontrol> - All the files in the folder of the
+        currently edited file.</li>
+      <li><uicontrol>Current DITA map hierarchy</uicontrol> - Option available when the dialog is
+        invoked from the <uicontrol>DITA Maps Manager</uicontrol> view. Applies corrections to all
+        references contained in the DITA map.</li>
+      <li><uicontrol>Project</uicontrol> - All files from the current project.</li>
+      <li><uicontrol>Selected project resources</uicontrol> - The selected files from the current
+        project.</li>
+      <li><uicontrol>Specified path</uicontrol> - Applies corrections to the files located at a path
+        that you specify.</li>
+    </ul>
+    <p>The <uicontrol>Options</uicontrol> section includes the following options:</p>
+    <ul>
+      <li><uicontrol>File filter</uicontrol> - Allows you to filter the files from the selected
+        scope.</li>
+      <li><uicontrol>Recurse subdirectories</uicontrol> - When selected, the autocorrect is
+        performed recursively for the specified scope. This option is ignored if the scope is set to
+          <uicontrol>All opened files</uicontrol>.</li>
+      <li><uicontrol>Include hidden files</uicontrol> - When selected, the autocorrect is also
+        performed in the hidden files.</li>
+      <li><uicontrol>AutoCorrect Options</uicontrol> - The autocorrect processor uses the options
+        available in the <xref href="autocorrect-preferences-page.dita#autocorrect-preferences-page"
+            ><uicontrol>AutoCorrect</uicontrol> preferences page</xref>.</li>
+    </ul>
+  </body>
+  <related-links>
+    <link href="autocorrect.dita"/>
+    <link href="spell-check-in-files.dita"/>
+  </related-links>
+</topic>

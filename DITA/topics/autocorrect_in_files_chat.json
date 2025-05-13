@@ -1,0 +1,124 @@
+{
+  "actionDetails" : {
+    "id" : "action.expand.topic.draft",
+    "categoryId" : "Intelligent Agents",
+    "type" : "update-entire-document-based-on-images",
+    "title" : "Expand Draft",
+    "short-description" : "Expand Draft",
+    "description" : "Enhances a draft of a DITA XML documentation topic by refining preliminary draft content, adding markup consistent with similar topics, and incorporating images.",
+    "input-type" : "markup",
+    "expand-params" : [ {
+      "name" : "contextInfo",
+      "value" : "${contextInfo}"
+    } ],
+    "framework" : "*DITA*",
+    "parameters" : {
+      "temperature" : 0.0,
+      "max_tokens" : 0,
+      "max_tokens_response_weight" : 0.5,
+      "function_refs" : [ {
+        "ref" : "get_current_editor_file_location"
+      }, {
+        "ref" : "get_content_for_document_url"
+      }, {
+        "ref" : "get_related_resources_overview_from_project"
+      }, {
+        "ref" : "get_related_content_from_webhelp"
+      } ]
+    },
+    "quick-assist" : false,
+    "embed-assist" : true,
+    "isBuiltinAction" : true
+  },
+  "actionParameters" : {
+    "contextInfo" : "",
+    "default.engine.model" : "gpt-4o"
+  },
+  "name" : "Expand Draft - 13 May 16:01",
+  "description" : "Enhances a draft of a DITA XML documentation topic by refining preliminary draft content, adding markup consistent with similar topics, and incorporating images.",
+  "initialMessages" : [ {
+    "role" : "user",
+    "content" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA Topic//EN\" \"topic.dtd\">\n<topic id=\"autocorrect_in_files\">\n    <title>AutoCorrect in Files</title>\n    <body>\n        <p>A new action was added to Oxygen, called <uicontrol>AutoCorrect in Files...</uicontrol>.\n      It works similar to <uicontrol>Check Spelling in Files...</uicontrol>, showing an almost\n      identical dialog box. The main difference is that it performs automatic corrections on the\n      misspelled words.</p>\n    </body>\n  <related-links>\n    <link href=\"autocorrect.dita\"/>\n    <link href=\"spell-check-in-files.dita\"/>\n  </related-links>\n</topic>"
+  } ],
+  "tree" : {
+    "conversationId" : 1747141236472,
+    "root" : {
+      "type" : "MessageNode",
+      "contentNodes" : [ {
+        "type" : "tools",
+        "message" : {
+          "role" : "assistant",
+          "content" : [ ],
+          "tool_calls" : [ {
+            "index" : 0,
+            "id" : "call_67xu5bsB30w9siiRkTKU4AGo",
+            "type" : "function",
+            "function" : {
+              "name" : "get_current_editor_file_location",
+              "arguments" : "{}"
+            }
+          } ]
+        },
+        "contentNodes" : [ {
+          "type" : "tools",
+          "message" : {
+            "role" : "assistant",
+            "content" : [ ],
+            "tool_calls" : [ {
+              "index" : 0,
+              "id" : "call_gIeL95IbJQMvvmTtIIIg8buq",
+              "type" : "function",
+              "function" : {
+                "name" : "get_content_for_document_url",
+                "arguments" : "{\"docURL\": \"file:/C:/Users/SorinCarbunaru/Projects/userguide/DITA/topics/autocorrect.dita\"}"
+              }
+            }, {
+              "index" : 1,
+              "id" : "call_uD2FWcVCnrmxKekUcqRfBlKa",
+              "type" : "function",
+              "function" : {
+                "name" : "get_content_for_document_url",
+                "arguments" : "{\"docURL\": \"file:/C:/Users/SorinCarbunaru/Projects/userguide/DITA/topics/spell-check-in-files.dita\"}"
+              }
+            } ]
+          },
+          "contentNodes" : [ {
+            "type" : "MessageNode",
+            "message" : {
+              "role" : "assistant",
+              "content" : "Based on the content of the related topics, I will expand and refine the initial DITA XML documentation topic draft for \"AutoCorrect in Files\". Here's the updated version:\n\n```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA Topic//EN\" \"topic.dtd\">\n<topic id=\"autocorrect_in_files\">\n    <title>AutoCorrect in Files</title>\n    <body>\n        <p>The <uicontrol>AutoCorrect in Files...</uicontrol> action in Oxygen allows you to automatically correct misspelled words across multiple files. This feature is similar to the <uicontrol>Check Spelling in Files...</uicontrol> action, providing a nearly identical dialog box. The primary distinction is that <uicontrol>AutoCorrect in Files...</uicontrol> performs automatic corrections on the identified misspelled words.</p>\n        \n        <p>The <uicontrol>AutoCorrect in Files...</uicontrol> action is available in the following locations:</p>\n        <ul>\n            <li>The <uicontrol>Edit</uicontrol> menu.</li>\n            <li>The contextual menu of the <xref href=\"using-the-project-view.dita#using-the-project-view\"><uicontrol>Project</uicontrol> view</xref>.</li>\n            <li>The contextual menu of the <xref href=\"dita-maps-manager.dita#dita-maps-manager\"><uicontrol>DITA Maps Manager</uicontrol> view</xref>, when editing DITA documents.</li>\n        </ul>\n\n        <p>When you initiate the <uicontrol>AutoCorrect in Files...</uicontrol> action, a dialog box appears, allowing you to define the scope and several other options for the operation. After configuring the settings, click the <uicontrol>AutoCorrect All</uicontrol> button to apply automatic corrections to all specified files.</p>\n\n        <p>The following scopes are possible, depending on where the action was invoked:</p>\n        <ul>\n            <li><uicontrol>All opened files</uicontrol> - The autocorrect is performed in all open files.</li>\n            <li><uicontrol>Current file directory</uicontrol> - All the files in the folder of the currently edited file.</li>\n            <li><uicontrol>Current DITA map hierarchy</uicontrol> - Option available when the dialog is invoked from the <uicontrol>DITA Maps Manager</uicontrol> view. Applies corrections to all references contained in the DITA map.</li>\n            <li><uicontrol>Project</uicontrol> - All files from the current project.</li>\n            <li><uicontrol>Selected project resources</uicontrol> - The selected files from the current project.</li>\n            <li><uicontrol>Specified path</uicontrol> - Applies corrections to the files located at a path that you specify.</li>\n        </ul>\n\n        <p>The <uicontrol>Options</uicontrol> section includes the following options:</p>\n        <ul>\n            <li><uicontrol>File filter</uicontrol> - Allows you to filter the files from the selected scope.</li>\n            <li><uicontrol>Recurse subdirectories</uicontrol> - When selected, the autocorrect is performed recursively for the specified scope. This option is ignored if the scope is set to <uicontrol>All opened files</uicontrol>.</li>\n            <li><uicontrol>Include hidden files</uicontrol> - When selected, the autocorrect is also performed in the hidden files.</li>\n            <li><uicontrol>AutoCorrect Options</uicontrol> - The autocorrect processor uses the options available in the <xref href=\"autocorrect-preferences-page.dita#autocorrect-preferences-page\"><uicontrol>AutoCorrect</uicontrol> preferences page</xref>.</li>\n        </ul>\n    </body>\n    <related-links>\n        <link href=\"autocorrect.dita\"/>\n        <link href=\"spell-check-in-files.dita\"/>\n    </related-links>\n</topic>\n```\n\nThis expanded version includes detailed information about the locations where the action is available, the scopes, and options for the operation, similar to the structure and flow observed in the related topics."
+            },
+            "contentNodes" : [ ],
+            "engine" : "gpt-4o-2024-08-06"
+          } ],
+          "engine" : "gpt-4o-2024-08-06",
+          "tool_calls_info" : [ {
+            "tool_message" : {
+              "role" : "tool",
+              "content" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA Topic//EN\" \"topic.dtd\">\n<topic id=\"autocorrect\">\n  <title>AutoCorrect Misspelled Words</title>\n  <prolog>\n    <metadata>\n      <keywords>\n        <indexterm>AutoCorrect</indexterm>\n        <indexterm>Automatically correct misspelled words</indexterm>\n      </keywords>\n    </metadata>\n  </prolog>\n  <body>\n    <p id=\"p_rp5_bgk_54b\"\n        ><?oxy_comment_start author=\"SorinCarbunaru\" timestamp=\"20250509T154010+0300\" comment=\"Ask @Adrian if this is 100% correct.\"?><ph\n        keyref=\"product\"/> includes an <term>AutoCorrect</term> feature to automatically correct\n      misspelled words, as well as to insert certain symbols or other text, as you type in\n        <uicontrol>Author</uicontrol> mode. <ph keyref=\"product\"/> includes a default list of\n      commonly misspelled words and symbols, but you can modify the list to suit your needs. You can\n      also choose to have the <term>AutoCorrect</term> feature use suggestions from the main spell\n      checker. The suggestions will only be used if the misspelled words are not found in the <xref\n        href=\"autocorrect-preferences-page.dita#autocorrect-preferences-page/replacements-section\"\n          ><i>Replacements Table</i></xref>.<?oxy_comment_end?></p>\n    <section id=\"section_yhd_4pv_zjb\">\n      <title>AutoCorrect Drop-down Actions</title>\n      <p id=\"p_yp5_bgk_54b\">After the automatic operation of replacing a misspelled word (triggered\n        by a space, dash, or certain punctuation characters), the affected string is highlighted.\n        The highlight is removed upon the next editing action (text insertion or deletion). If you\n        hover over the highlight, a small widget appears below the word. If you hover over\n        <?oxy_comment_start author=\"SorinCarbunaru\" timestamp=\"20250509T153327+0300\" comment=\"Who is it? Find that in the context and clearly mention that.\" id=\"c5r_cvt_gfc\"?><?oxy_comment_start author=\"SorinCarbunaru\" timestamp=\"20250509T155428+0300\" parentID=\"c5r_cvt_gfc\" comment=\"Also avoid starting this sentence with &quot;If you hover over&quot;, as the previous sentence also starts.\" mid=\"2\"?>it<?oxy_comment_end mid=\"2\"?><?oxy_comment_end?>,\n        it expands and you can click it to present a drop-down list that includes the following\n          actions:<ul id=\"ul_blg_ymv_ps\">\n          <li id=\"li_zp5_bgk_54b\"\n              ><?oxy_comment_start author=\"SorinCarbunaru\" timestamp=\"20250509T162423+0300\" comment=\"&quot;[original word]&quot; should be written as &quot;[ORIGINAL_WORD]&quot;, to make it clear it&apos;s just a placeholder\"?><uicontrol>Change\n              back to \"[original word]\"</uicontrol> - Reverts the correction back to its original\n            form.</li>\n          <li id=\"li_aq5_bgk_54b\"><uicontrol>Stop Automatically Correcting \"[original\n              word]\"</uicontrol> - This option is presented if the correction is performed based on\n            the <xref\n              href=\"autocorrect-preferences-page.dita#autocorrect-preferences-page/replacements-section\"\n                ><i>AutoCorrect Replacements Table</i></xref> and selecting it will delete the\n            corresponding entry from the Replacements Table.</li>\n          <li id=\"li_bq5_bgk_54b\"><uicontrol>Learn Word \"[original\n            word]\"</uicontrol><?oxy_comment_end?> - This option is presented if the <xref\n              href=\"autocorrect-preferences-page.dita#autocorrect-preferences-page/use-spell-check\"\n                ><uicontrol>Use additional suggestions from the spell checker</uicontrol>\n              option</xref> is selected in the <xref\n              href=\"autocorrect-preferences-page.dita#autocorrect-preferences-page\"\n                ><uicontrol>AutoCorrect</uicontrol> preferences page</xref> and the correction is\n            performed based on the <i>Spell Checker</i>. Selecting this option will add the item to\n            the list of <xref href=\"learned-words.dita#learned-words\">learned words</xref>.</li>\n          <li id=\"li_cq5_bgk_54b\"><uicontrol>AutoCorrect options</uicontrol> - Opens the <xref\n              href=\"autocorrect-preferences-page.dita#autocorrect-preferences-page\"\n                ><uicontrol>AutoCorrect</uicontrol> preferences page</xref> that allows you to\n            configure the feature.</li>\n        </ul></p>\n      <p id=\"p_dq5_bgk_54b\">\n        <fig id=\"fig_pts_yrv_ps\">\n          <title>AutoCorrect Drop-down Actions</title>\n          <image href=\"../img/autocorrect_widget.png\" id=\"image_c1y_bsv_ps\" placement=\"inline\"/>\n        </fig>\n      </p>\n    </section>\n  </body>\n  <related-links>\n      <link href=\"using-check-spelling.dita#using-check-spelling\"/>\n  </related-links>\n</topic>\n",
+              "tool_call_id" : "call_gIeL95IbJQMvvmTtIIIg8buq"
+            },
+            "tool_call_description" : "Get document content from location (C:\\Users\\SorinCarbunaru\\Projects\\userguide\\DITA\\topics\\autocorrect.dita)"
+          }, {
+            "tool_message" : {
+              "role" : "tool",
+              "content" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE topic\n  PUBLIC \"-//OASIS//DTD DITA Topic//EN\" \"topic.dtd\">\n<topic id=\"spell-check-in-files\">\n  <title>Spell Check Multiple Files</title>\n  <prolog>\n    <metadata>\n      <keywords>\n        <indexterm>Spell checking<indexterm>Multiple files</indexterm></indexterm>\n        <indexterm>Check Spelling in multiple Files</indexterm>\n      </keywords>\n    </metadata>\n  </prolog>\n  <body>\n    <p id=\"p_q45_bgk_54b\">The <uicontrol><image href=\"../img/CheckSpelling16.png\"/>Check Spelling in\n        Files</uicontrol> action allows you to check the spelling on multiple local or remote\n      documents. This action is available in the following locations:<ul id=\"ul_r45_bgk_54b\">\n        <li id=\"li_s45_bgk_54b\"><ph product=\"author developer editor json\">The\n              <uicontrol>Edit</uicontrol> menu.</ph></li>\n        <li id=\"li_t45_bgk_54b\">The contextual menu of the <xref\n            href=\"using-the-project-view.dita#using-the-project-view\"><uicontrol\n              product=\"author developer editor json\">Project</uicontrol><uicontrol\n              product=\"authorEclipse developerEclipse editorEclipse\">Project Explorer</uicontrol>\n            view</xref>.</li>\n        <li product=\"editor author authorEclipse editorEclipse\" id=\"li_u45_bgk_54b\">The contextual\n          menu of the <xref href=\"dita-maps-manager.dita#dita-maps-manager\"><uicontrol>DITA Maps\n              Manager</uicontrol> view</xref>, when editing DITA documents.</li>\n      </ul>This action opens the <uicontrol>Check Spelling in Files</uicontrol> dialog box that\n      allows you to define the scope and several other options. After you configure the settings for\n      the operation, click the <uicontrol>Check All</uicontrol> button to check the spelling in all\n      specified files. The spelling corrections are displayed in the <xref\n        href=\"results-view.dita#results-view\"\n        product=\"author developer editor authorEclipse developerEclipse editorEclipse\"\n          ><uicontrol>Results</uicontrol> view</xref><uicontrol product=\"json\">Results</uicontrol>\n      view at the bottom of the editor and you can group the reported errors as a tree with two\n        levels.<note type=\"tip\" id=\"note_v45_bgk_54b\">If you want to instruct the spell checking\n        engine to not report a particular word as being a spelling error in the future, use the\n          <uicontrol>Learn Word(s)</uicontrol> action from the contextual menu in the\n          <uicontrol>Results</uicontrol> view.</note></p>\n    <p id=\"p_w45_bgk_54b\">\n      <fig id=\"check-spelling-in-files-dialog-oxygen\" product=\"author developer editor json\">\n        <title>Check Spelling in Files Dialog Box (Invoked from Project View)</title>\n        <image href=\"../img/sa_check_spelling_in_files.png\"/>\n      </fig>\n    </p>\n    <p id=\"p_x45_bgk_54b\">The following scopes are possible, depending on where the action was invoked:</p>\n    <ul id=\"ul_y45_bgk_54b\">\n      <li id=\"li_z45_bgk_54b\"><uicontrol>All opened files</uicontrol> - The spell check is performed in all open\n        files.</li>\n      <li id=\"li_ap5_bgk_54b\"><uicontrol>Current file directory</uicontrol> - All the files in the folder of the\n        currently edited file.</li>\n      <li id=\"li_bp5_bgk_54b\"><b>Current DITA map hierarchy</b> - Option available when the dialog is invoked from the\n          <uicontrol>DITA Maps Manager</uicontrol> view. Checks the spelling in all references\n        contained in the DITA map.</li>\n      <li id=\"li_cp5_bgk_54b\"><uicontrol>Project</uicontrol> - All files from the current project.</li>\n      <li id=\"li_dp5_bgk_54b\"><uicontrol>Selected project resources</uicontrol> - The selected files from the current\n        project.</li>\n      <li id=\"li_ep5_bgk_54b\"><uicontrol>Specified path</uicontrol> - Checks the spelling in the files located at a path\n        that you specify.</li>\n    </ul>\n    <p id=\"p_fp5_bgk_54b\">The <uicontrol>Options</uicontrol> section includes the following options:</p>\n    <ul id=\"ul_r43_tbh_wr\">\n      <li id=\"li_gp5_bgk_54b\"><uicontrol>File filter</uicontrol> - Allows you to filter the files from the selected\n        scope.</li>\n      <li id=\"li_hp5_bgk_54b\"><uicontrol>Recurse subdirectories</uicontrol> - When selected, the spell check is\n        performed recursively for the specified scope. The one exception is that this option is\n        ignored if the scope is set to <uicontrol>All opened files</uicontrol>.</li>\n      <li id=\"li_ip5_bgk_54b\"><uicontrol>Include hidden files</uicontrol> - When selected, the spell check is also\n        performed in the hidden files.</li>\n      <li id=\"li_jp5_bgk_54b\"><uicontrol>Spell Check Options</uicontrol> - The spell check processor uses the options\n        available in the <xref href=\"preferences-editor-spell-check.dita\"><uicontrol>Spell\n            Check</uicontrol> preferences page</xref>.</li>\n    </ul>\n    <p product=\"editor author authorEclipse editorEclipse\" id=\"spell-check-dita-maps\">When working\n      with DITA documents, if you invoke the <uicontrol>Check Spelling in Files</uicontrol> action\n      in the <xref href=\"dita-maps-manager.dita#dita-maps-manager\"><uicontrol>DITA Maps\n          Manager</uicontrol> view</xref>, a slightly different version of the dialog box is\n      displayed:</p>\n    <p id=\"p_kp5_bgk_54b\">\n      <fig product=\"author editor json\" id=\"fig_lp5_bgk_54b\">\n        <title>Check Spelling in Files Dialog Box (Invoked from the DITA Maps Manager View)</title>\n        <image href=\"../img/sa_check_spelling_in_files_dita_maps_manager.png\" placement=\"inline\"/>\n      </fig>\n    </p>\n    <p product=\"editor author authorEclipse editorEclipse\" id=\"p_mp5_bgk_54b\">The following scopes are available when\n      you check the spelling in files from the <xref href=\"dita-maps-manager.dita#dita-maps-manager\"\n          ><uicontrol>DITA Maps Manager</uicontrol></xref>:<ul id=\"ul_np5_bgk_54b\">\n        <li id=\"li_op5_bgk_54b\"><uicontrol>Current DITA Map hierarchy</uicontrol> - All the files referenced in the\n          currently selected <xref keyref=\"glossentry_ditamap\"><term>DITA map</term></xref> from in\n          the <uicontrol>DITA Maps Manager</uicontrol> view.</li>\n        <li id=\"li_pp5_bgk_54b\"><b>Selected references</b> - Checks the spelling in the selected references.</li>\n        <li id=\"li_qp5_bgk_54b\"><uicontrol>Specified path</uicontrol> - Checks the spelling in the files located at a\n          path that you specify.</li>\n      </ul></p>\n  </body>\n</topic>\n",
+              "tool_call_id" : "call_uD2FWcVCnrmxKekUcqRfBlKa"
+            },
+            "tool_call_description" : "Get document content from location (C:\\Users\\SorinCarbunaru\\Projects\\userguide\\DITA\\topics\\spell-check-in-files.dita)"
+          } ]
+        } ],
+        "engine" : "gpt-4o-2024-08-06",
+        "tool_calls_info" : [ {
+          "tool_message" : {
+            "role" : "tool",
+            "content" : "\"file:/C:/Users/SorinCarbunaru/Projects/userguide/DITA/topics/autocorrect_in_files.dita\"",
+            "tool_call_id" : "call_67xu5bsB30w9siiRkTKU4AGo"
+          },
+          "tool_call_description" : "Get location of the current document"
+        } ]
+      } ]
+    }
+  },
+  "index" : [ 0, 0, 0 ]
+}

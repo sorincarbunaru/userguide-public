@@ -14,6 +14,14 @@
                         <String>${pd}/positron-custom-actions</String>
                     </entry>
                     <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.additional.context.file</String>
+                        <String>${pd}/positron-ai-actions/ai-context.md</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.ai.content</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.enable.positron</String>
                         <String>true</String>
                     </entry>
@@ -44,6 +52,10 @@
                     <entry>
                         <String>Terminology_Checker_Options_Page_Extension_Key</String>
                         <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
+                        <String>actions_preferences_page</String>
+                        <Boolean>true</Boolean>
                     </entry>
                     <entry>
                         <String>ask.open.ditamap.in.dita.manager</String>
@@ -10948,6 +10960,10 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                         <String-array>
                             <String>${pd}/../publishing</String>
                         </String-array>
+                    </entry>
+                    <entry>
+                        <String>saved_memories_preferences_page</String>
+                        <Boolean>false</Boolean>
                     </entry>
                     <entry>
                         <String>scenarios</String>

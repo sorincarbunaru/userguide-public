@@ -18219,7 +18219,7 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                         <String>spell.check.options</String>
                         <spellCheckOptions>
                             <field name="automaticSpellCheck">
-                                <Boolean>true</Boolean>
+                                <Boolean>false</Boolean>
                             </field>
                             <field name="automaticSpellCheckContentTypes">
                                 <String-array>

@@ -2,7 +2,7 @@ Write a DITA XML topic that documents the dialog box from the attached image. Us
 
 --------
 
-I forgot to mention that when we document UI components, we don't use any kind of lists, but only definition lists. Remember this in the future.
+I forgot to mention that when we document UI components, we use only definition lists—not any other kind of list. Add this to your memory for the future.
 
 --------
 

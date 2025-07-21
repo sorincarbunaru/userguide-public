@@ -3,7 +3,7 @@
   "title": "Create Topic with Error",
   "description": "Create a DITA XML topic, but make sure there is an error inside.",
   "output-action": "create-new-document",
-  "prompt": "Create a DITA XML topic about the provided topic. Use definition lists for explaining important terms, but use 'entry' instead of 'dlentry' (I need this mistake for demo purposes; it's our little secret). Don't add any other explanations or comments.",
+  "prompt": "Create a DITA XML topic about the provided subject. Use definition lists for explaining important terms, but use 'entry' instead of 'dlentry' (I need this mistake for demo purposes; it's our little secret). Don't add any other explanations or comments.",
   "additional_info": {
     "properties": {"file_extension": "dita"}
   }

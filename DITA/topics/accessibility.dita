@@ -8,6 +8,60 @@
       designed to adhere to the U.S. Government Section 508 accessibility standards: <xref
         href="https://www.oxygenxml.com/xml_editor/section508.html" format="html" scope="external"
       />.</p>
+    <table frame="all" id="table_accessibility_summary">
+      <title>Accessibility Features Summary</title>
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="2*"/>
+        <thead>
+          <row>
+            <entry>Feature</entry>
+            <entry>Description</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Font and Color Adjustments</entry>
+            <entry>Customize font styles, sizes, and color themes through <menucascade>
+                <uicontrol>Options</uicontrol>
+                <uicontrol>Preferences</uicontrol>
+                <uicontrol>Appearance</uicontrol>
+              </menucascade> for low vision and color blindness support.</entry>
+          </row>
+          <row>
+            <entry>Command-Line Installation</entry>
+            <entry>Install using the <userinput outputclass="user-input">-c</userinput> flag for accessible command-prompt installation on Windows and Linux.</entry>
+          </row>
+          <row>
+            <entry>JAWS Screen Reader (Windows)</entry>
+            <entry>Supported with Java Access Bridge enabled. Reads menus, XML content, and UI components.</entry>
+          </row>
+          <row>
+            <entry>NVDA Screen Reader (Windows)</entry>
+            <entry>Supported with Java Access Bridge enabled. Free screen reader with full application accessibility.</entry>
+          </row>
+          <row>
+            <entry>Text Editing Mode</entry>
+            <entry>Full access to XML source with content completion, attributes view, elements view, and outline navigation.</entry>
+          </row>
+          <row>
+            <entry>Author Editing Mode</entry>
+            <entry>Visual editing with hidden XML tags, change tracking, and commenting support. Context reading with keyboard shortcuts.</entry>
+          </row>
+          <row>
+            <entry>VoiceOver (macOS)</entry>
+            <entry>Basic support available with some limitations for tree-structure controls (500 child node limit).</entry>
+          </row>
+          <row>
+            <entry>Keyboard Shortcuts</entry>
+            <entry>Comprehensive mnemonic support and customizable shortcuts through <menucascade>
+                <uicontrol>Options</uicontrol>
+                <uicontrol>Menu Shortcut Keys</uicontrol>
+              </menucascade>.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
     <section id="adjusting_fonts_and_colors">
       <title>Adjusting Fonts and Colors</title>
       <p id="p_sxl_bgk_54b">If you have low vision, go to <menucascade>
@@ -26,10 +80,11 @@
     </section>
     <section id="section_rfj_4pf_l3b">
       <title>Installing <ph keyref="product"/></title>
-      <p id="p_txl_bgk_54b">Installation kits for Windows and Linux are made using the Install4j product. If you have
-        problems navigating the Install4j installation wizard, you can run the installation from a
-          <xref href="eppo-installation-windows.dita#eppo-installation-windows/c-parameter"
-          >command-prompt application using the <b>-c</b> flag</xref> like
+      <p id="p_txl_bgk_54b">Installation kits for Windows and Linux are made using the Install4j
+        product. If you have problems navigating the Install4j installation wizard, you can run the
+        installation from a <xref
+          href="eppo-installation-windows.dita#eppo-installation-windows/c-parameter">command-prompt
+          application using the <userinput outputclass="user-input">-c</userinput> flag</xref> like
         this:<codeblock outputclass="language-ini" id="codeblock_uxl_bgk_54b">C:\Users\your_user_name\Downloads\oxygenAuthor-64bit.exe -c</codeblock></p>
     </section>
     <section id="section_ntq_yxn_j3b">

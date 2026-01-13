@@ -11,6 +11,5 @@
     <topicref href="frameworks.dita">
       <topicref href="customizing_an_existing_framework.dita"/>
     </topicref>
-    <topicref href="../topics/api_faq_plugin_framework_difference.dita"/>
   </topicref>
 </map>

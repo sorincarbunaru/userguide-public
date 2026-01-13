@@ -2,6 +2,17 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="authenticating">
     <title>Authenticating</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>authentication</indexterm>
+        <indexterm>Subversion</indexterm>
+        <indexterm>credentials</indexterm>
+        <indexterm>repository</indexterm>
+        <indexterm>certificate</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
     <body>
     <p id="p_hth_dgk_54b">Five protocols are supported: <i>HTTP</i>, <i>HTTPS</i>, <i>SVN</i>,
         <i>SVN + SSH</i> and <i>FILE</i>. If the repository that you are trying to access is

@@ -47,12 +47,12 @@
       </ol></p>
     <section id="section_dyk_rn4_jnb">
       <title>Adding a Custom URI Resolver to <ph keyref="product"/></title>
-      <p id="p_uvl_dgk_54b">You can use the <codeph>XMLUtilAccess.addPriorityURIResolver(URIResolver)</codeph> API to
-        add your own priority URI resolver from a <xref
-          href="../dev_guide/workspace_access_plugin.dita" product="author editor">Workspace Access
-          plugin</xref><codeph product="authorEclipse editorEclipse">Workspace Access
-          plugin extension</codeph>, allowing you to take control over how topic references in a DITA map are
-        located or how references in DITA topics are resolved.</p>
+      <p id="p_uvl_dgk_54b">You can use the
+          <codeph>XMLUtilAccess.addPriorityURIResolver(URIResolver)</codeph> API to add your own
+        priority URI resolver from a Workspace Access plugin <codeph
+          product="authorEclipse editorEclipse">Workspace Access plugin extension</codeph>, allowing
+        you to take control over how topic references in a DITA map are located or how references in
+        DITA topics are resolved.</p>
     </section>
     <section id="section_xws_d44_jnb">
       <title>Publishing a DITA Map with References Resolved Through the XML Catalog</title>

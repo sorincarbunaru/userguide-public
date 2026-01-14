@@ -88,7 +88,7 @@
   </sch:pattern>
   
   <!-- =================================================== CALL SHORT DESCRIPTION ==================================================================== -->
-  <sch:pattern>
+  <!--<sch:pattern>
     <sch:rule context="topic">
       <sch:report 
         test="not(shortdesc)"
@@ -100,7 +100,7 @@
         <sqf:add match="title" position="after" select="fn:parse-xml(ai:invoke-action('action.short.description', '', .))"/>
       </sqf:fix>
     </sch:rule>
-  </sch:pattern>
+  </sch:pattern>-->
   
   <!-- Report if link text same as @href value -->
   <sch:pattern>

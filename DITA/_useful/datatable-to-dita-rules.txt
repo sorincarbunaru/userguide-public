@@ -1,0 +1,31 @@
+CONVERSION RULES (custom datatable element -> dita element)
+
+STRUCTURAL ELEMENTS
+-------------------
+datatable        -> table
+heading          -> title
+columnGroup      -> tgroup
+columnSpec       -> colspec
+headerSection    -> thead
+bodySection      -> tbody
+dataRow          -> row
+cell             -> entry
+
+NAVIGATION / UI ELEMENTS
+-----------------------
+menuPath         -> menucascade
+menuItem         -> uicontrol
+
+USER INPUT / INLINE ELEMENTS
+----------------------------
+inputValue       -> userinput
+
+ATTRIBUTES
+----------
+border           -> frame
+uid              -> id
+count            -> cols
+name             -> colname
+index            -> colnum
+width            -> colwidth
+class            -> outputclass

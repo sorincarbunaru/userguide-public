@@ -10,13 +10,15 @@
       />.</p>
     <table frame="all" id="table_accessibility_summary">
       <title>Accessibility Features Summary</title>
-      <tgroup cols="2">
+      <tgroup cols="3">
         <colspec colname="c1" colnum="1" colwidth="1*"/>
-        <colspec colname="c2" colnum="2" colwidth="2*"/>
+        <colspec colname="c2" colnum="2" colwidth="2.98*"/>
+        <colspec colname="c3" colnum="3" colwidth="1*"/>
         <thead>
           <row>
             <entry>Feature</entry>
             <entry>Description</entry>
+            <entry>Grade of Implementation</entry>
           </row>
         </thead>
         <tbody>
@@ -27,30 +29,43 @@
                 <uicontrol>Preferences</uicontrol>
                 <uicontrol>Appearance</uicontrol>
               </menucascade> for low vision and color blindness support.</entry>
+            <entry>Full</entry>
           </row>
           <row>
             <entry>Command-Line Installation</entry>
-            <entry>Install using the <userinput outputclass="user-input">-c</userinput> flag for accessible command-prompt installation on Windows and Linux.</entry>
+            <entry>Install using the <userinput outputclass="user-input">-c</userinput> flag for
+              accessible command-prompt installation on Windows and Linux.</entry>
+            <entry>Full</entry>
           </row>
           <row>
             <entry>JAWS Screen Reader (Windows)</entry>
-            <entry>Supported with Java Access Bridge enabled. Reads menus, XML content, and UI components.</entry>
+            <entry>Supported with Java Access Bridge enabled. Reads menus, XML content, and UI
+              components.</entry>
+            <entry>Full</entry>
           </row>
           <row>
             <entry>NVDA Screen Reader (Windows)</entry>
-            <entry>Supported with Java Access Bridge enabled. Free screen reader with full application accessibility.</entry>
+            <entry>Supported with Java Access Bridge enabled. Free screen reader with full
+              application accessibility.</entry>
+            <entry>Full</entry>
           </row>
           <row>
             <entry>Text Editing Mode</entry>
-            <entry>Full access to XML source with content completion, attributes view, elements view, and outline navigation.</entry>
+            <entry>Full access to XML source with content completion, attributes view, elements
+              view, and outline navigation.</entry>
+            <entry>Full</entry>
           </row>
           <row>
             <entry>Author Editing Mode</entry>
-            <entry>Visual editing with hidden XML tags, change tracking, and commenting support. Context reading with keyboard shortcuts.</entry>
+            <entry>Visual editing with hidden XML tags, change tracking, and commenting support.
+              Context reading with keyboard shortcuts.</entry>
+            <entry>Full</entry>
           </row>
           <row>
             <entry>VoiceOver (macOS)</entry>
-            <entry>Basic support available with some limitations for tree-structure controls (500 child node limit).</entry>
+            <entry>Basic support available with some limitations for tree-structure controls (500
+              child node limit).</entry>
+            <entry>Partial</entry>
           </row>
           <row>
             <entry>Keyboard Shortcuts</entry>
@@ -58,6 +73,7 @@
                 <uicontrol>Options</uicontrol>
                 <uicontrol>Menu Shortcut Keys</uicontrol>
               </menucascade>.</entry>
+            <entry>Full</entry>
           </row>
         </tbody>
       </tgroup>

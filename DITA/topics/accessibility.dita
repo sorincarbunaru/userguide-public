@@ -8,60 +8,76 @@
       designed to adhere to the U.S. Government Section 508 accessibility standards: <xref
         href="https://www.oxygenxml.com/xml_editor/section508.html" format="html" scope="external"
       />.</p>
-    <table frame="all" id="table_accessibility_summary">
-      <title>Accessibility Features Summary</title>
-      <tgroup cols="2">
-        <colspec colname="c1" colnum="1" colwidth="1*"/>
-        <colspec colname="c2" colnum="2" colwidth="2*"/>
-        <thead>
-          <row>
-            <entry>Feature</entry>
-            <entry>Description</entry>
-          </row>
-        </thead>
-        <tbody>
-          <row>
-            <entry>Font and Color Adjustments</entry>
-            <entry>Customize font styles, sizes, and color themes through <menucascade>
-                <uicontrol>Options</uicontrol>
-                <uicontrol>Preferences</uicontrol>
-                <uicontrol>Appearance</uicontrol>
-              </menucascade> for low vision and color blindness support.</entry>
-          </row>
-          <row>
-            <entry>Command-Line Installation</entry>
-            <entry>Install using the <userinput outputclass="user-input">-c</userinput> flag for accessible command-prompt installation on Windows and Linux.</entry>
-          </row>
-          <row>
-            <entry>JAWS Screen Reader (Windows)</entry>
-            <entry>Supported with Java Access Bridge enabled. Reads menus, XML content, and UI components.</entry>
-          </row>
-          <row>
-            <entry>NVDA Screen Reader (Windows)</entry>
-            <entry>Supported with Java Access Bridge enabled. Free screen reader with full application accessibility.</entry>
-          </row>
-          <row>
-            <entry>Text Editing Mode</entry>
-            <entry>Full access to XML source with content completion, attributes view, elements view, and outline navigation.</entry>
-          </row>
-          <row>
-            <entry>Author Editing Mode</entry>
-            <entry>Visual editing with hidden XML tags, change tracking, and commenting support. Context reading with keyboard shortcuts.</entry>
-          </row>
-          <row>
-            <entry>VoiceOver (macOS)</entry>
-            <entry>Basic support available with some limitations for tree-structure controls (500 child node limit).</entry>
-          </row>
-          <row>
-            <entry>Keyboard Shortcuts</entry>
-            <entry>Comprehensive mnemonic support and customizable shortcuts through <menucascade>
-                <uicontrol>Options</uicontrol>
-                <uicontrol>Menu Shortcut Keys</uicontrol>
-              </menucascade>.</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </table>
+    <datatable border="all" uid="table_accessibility_summary">
+      <heading>Accessibility Features Summary</heading>
+      <columnGroup count="3">
+        <columnSpec name="c1" index="1" width="1*"/>
+        <columnSpec name="c2" index="2" width="2.98*"/>
+        <columnSpec name="c3" index="3" width="1*"/>
+        <headerSection>
+          <dataRow>
+            <cell>Feature</cell>
+            <cell>Description</cell>
+            <cell>Grade of Implementation</cell>
+          </dataRow>
+        </headerSection>
+        <bodySection>
+          <dataRow>
+            <cell>Font and Color Adjustments</cell>
+            <cell> Customize font styles, sizes, and color themes through <menuPath>
+                <menuItem>Options</menuItem>
+                <menuItem>Preferences</menuItem>
+                <menuItem>Appearance</menuItem>
+            </menuPath> for low vision and color blindness support. </cell>
+            <cell>Full</cell>
+          </dataRow>
+          <dataRow>
+            <cell>Command-Line Installation</cell>
+            <cell> Install using the <inputValue class="user-input">-c</inputValue> flag for
+              accessible command-prompt installation on Windows and Linux. </cell>
+            <cell>Full</cell>
+          </dataRow>
+          <dataRow>
+            <cell>JAWS Screen Reader (Windows)</cell>
+            <cell> Supported with Java Access Bridge enabled. Reads menus, XML content, and UI
+              components. </cell>
+            <cell>Full</cell>
+          </dataRow>
+          <dataRow>
+            <cell>NVDA Screen Reader (Windows)</cell>
+            <cell> Supported with Java Access Bridge enabled. Free screen reader with full application
+              accessibility. </cell>
+            <cell>Full</cell>
+          </dataRow>
+          <dataRow>
+            <cell>Text Editing Mode</cell>
+            <cell> Full access to XML source with content completion, attributes view, elements view,
+              and outline navigation. </cell>
+            <cell>Full</cell>
+          </dataRow>
+          <dataRow>
+            <cell>Author Editing Mode</cell>
+            <cell> Visual editing with hidden XML tags, change tracking, and commenting support.
+              Context reading with keyboard shortcuts. </cell>
+            <cell>Full</cell>
+          </dataRow>
+          <dataRow>
+            <cell>VoiceOver (macOS)</cell>
+            <cell> Basic support available with some limitations for tree-structure controls (500
+              child node limit). </cell>
+            <cell>Partial</cell>
+          </dataRow>
+          <dataRow>
+            <cell>Keyboard Shortcuts</cell>
+            <cell> Comprehensive mnemonic support and customizable shortcuts through <menuPath>
+                <menuItem>Options</menuItem>
+                <menuItem>Menu Shortcut Keys</menuItem>
+            </menuPath>. </cell>
+            <cell>Full</cell>
+          </dataRow>
+        </bodySection>
+      </columnGroup>
+    </datatable>
     <section id="adjusting_fonts_and_colors">
       <title>Adjusting Fonts and Colors</title>
       <p id="p_sxl_bgk_54b">If you have low vision, go to <menucascade>

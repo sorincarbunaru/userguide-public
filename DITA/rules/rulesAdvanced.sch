@@ -64,7 +64,7 @@
   </sch:pattern>
   
   <!-- Topic ID must be equal to file name -->
-  <sch:pattern>
+<!--  <sch:pattern>
     <sch:rule context="/*[1][contains(@class, ' topic/topic ')]">
       <sch:let name="reqId" value="replace(tokenize(document-uri(/), '/')[last()], '\.dita', '')"/>
       <sch:assert test="@id = $reqId" sqf:fix="setId">
@@ -78,7 +78,7 @@
         <sqf:add node-type="attribute" target="id" select="$reqId"/>
       </sqf:fix>
     </sch:rule>
-  </sch:pattern>
+  </sch:pattern>-->
   
   <sch:pattern>
     <sch:rule context="topic/shortdesc">

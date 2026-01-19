@@ -1,0 +1,17 @@
+Prompts:
+
+
+
+Write a topic similar to @dita-perspective.dita about a Git Project perspective that contains only the Project view and the views contributed by the Git Client (see @git-addon.dita).
+
+
+
+Create a pull request to merge the changes from PRJ_312_auth to the master branch
+
+
+
+Only in DITA topics, search where the verb "to personalize" or one of its participles were used inside section titles and replace them with the proper forms of "to customize".
+
+
+
+Use XML Refactoring to convert the selected content to a DITA table based on the attached rules

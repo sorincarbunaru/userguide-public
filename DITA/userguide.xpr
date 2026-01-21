@@ -22,12 +22,40 @@
                         <String>true</String>
                     </entry>
                     <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.insertion</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.whole.document</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.xml.fragments</String>
+                        <String>false</String>
+                    </entry>
+                    <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.enable.positron</String>
                         <String>true</String>
                     </entry>
                     <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.load.default.actions</String>
                         <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.add.tools.all.chatmodes</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.config.file</String>
+                        <String>${pd}\..\mcp\mcp-config.json</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.local.servers.enable</String>
+                        <String>false</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.timeout</String>
+                        <String>10</String>
                     </entry>
                     <entry>
                         <String>Positron_addon_preferences_engine_page</String>
@@ -10239,6 +10267,10 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                     </entry>
                     <entry>
                         <String>key.xml.refactoring.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>mcp_preferences_page</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>

@@ -22,6 +22,18 @@
                         <String>true</String>
                     </entry>
                     <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.insertion</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.whole.document</String>
+                        <String>true</String>
+                    </entry>
+                    <entry>
+                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.xml.fragments</String>
+                        <String>false</String>
+                    </entry>
+                    <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.enable.positron</String>
                         <String>true</String>
                     </entry>

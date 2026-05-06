@@ -1,4 +1,4 @@
-Copyright © 2014 Syncro Soft SRL
+Copyright  2026 Syncro Soft SRL
 
 The content of this repository is created by Syncro Soft SRL and all copyright belongs to Syncro Soft SRL, unless noted otherwise.
 This work is licensed under a Creative Commmons Attribution-ShareAlike 4.0 License.

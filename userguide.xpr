@@ -18468,6 +18468,6 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
         <folder masterFiles="true" name="Main Files">
             <file name="Sample%20DITA-OT%20Project/ditaProject.xml"/>
         </folder>
-        <folder path="../"/>
+        <folder path="."/>
     </projectTree>
 </project>

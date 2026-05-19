@@ -11,7 +11,7 @@
                     </entry>
                     <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.actions.folder</String>
-                        <String>${pd}/positron-custom-actions</String>
+                        <String>${pd}/positron-resources</String>
                     </entry>
                     <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.additional.context.file</String>
@@ -47,7 +47,7 @@
                     </entry>
                     <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.config.file</String>
-                        <String>${pd}\..\mcp\mcp-config.json</String>
+                        <String>${pd}\mcp\mcp-config.json</String>
                     </entry>
                     <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.local.servers.enable</String>
@@ -70,6 +70,10 @@
                         <Boolean>false</Boolean>
                     </entry>
                     <entry>
+                        <String>Positron_addon_unsafe_tools_auto_approval_page</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
                         <String>Positron_enterprise_addon_preferences_engine_page</String>
                         <Boolean>false</Boolean>
                     </entry>
@@ -84,6 +88,10 @@
                     <entry>
                         <String>actions_preferences_page</String>
                         <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>ai_autocompletion_preferences_page</String>
+                        <Boolean>false</Boolean>
                     </entry>
                     <entry>
                         <String>ask.open.ditamap.in.dita.manager</String>
@@ -300,12 +308,12 @@
                     <entry>
                         <String>catalogs.v5</String>
                         <String-array>
-                            <String>${pdu}/rules/catalog.xml</String>
+                            <String>${pdu}/DITA/rules/catalog.xml</String>
                         </String-array>
                     </entry>
                     <entry>
                         <String>custom.refactoring.dir</String>
-                        <String>${pd}/refactoring</String>
+                        <String>${pd}/DITA/refactoring</String>
                     </entry>
                     <entry>
                         <String>document.types</String>
@@ -10990,7 +10998,7 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                     <entry>
                         <String>publishing.templates.gallery.directories</String>
                         <String-array>
-                            <String>${pd}/../publishing</String>
+                            <String>${pd}/publishing</String>
                         </String-array>
                     </entry>
                     <entry>
@@ -18459,6 +18467,10 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 </field>
                             </validationScenario>
                         </validationScenario-array>
+                    </entry>
+                    <entry>
+                        <String>xpath_functions_preferences_page</String>
+                        <Boolean>false</Boolean>
                     </entry>
                 </serializableOrderedMap>
             </serialized>

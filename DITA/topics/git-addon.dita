@@ -672,7 +672,8 @@
         tree. The tree can be filtered using the text field at the top of the panel and you can
         reload the information by using the <uicontrol>Refresh</uicontrol> action. When hovering the
         cursor over a branch name, a tooltip is displayed that provides information about the last
-        commit performed on that branch (such as the author and the date of the commit).</p>
+        commit performed on that branch (such as the author and the date of the commit). For local
+        branches, the tooltip also shows the upstream branch, if one is configured.</p>
       <p id="p_glv_4qy_kpb">The following actions are available in the contextual menu for each
         local branch:</p>
       <ul id="ul_hlv_4qy_kpb">

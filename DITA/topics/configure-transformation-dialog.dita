@@ -2,38 +2,16 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="configure-transformation-dialog">
   <title>Configure Transformation Scenario(s) Dialog Box</title>
-  <prolog>
-    <metadata>
-      <keywords>
-        <indexterm>Transformation Scenarios<indexterm>Configure Transformation Scenario dialog
-            box</indexterm></indexterm>
-        <indexterm>Configure Transformation Scenario dialog box</indexterm>
-      </keywords>
-    </metadata>
-  </prolog>
   <body>
-    <p id="p_efm_cgk_54b">You can use the <uicontrol>Configure Transformation Scenarios(s)</uicontrol> dialog box for
-        <xref href="edit-scenario-dialog.dita#edit-scenario-dialog">editing existing transformation
+    <p id="p_efm_cgk_54b">You can use the <uicontrol>Configure Transformation
+        Scenarios(s)</uicontrol> dialog box for <xref
+        href="edit-scenario-dialog.dita#edit-scenario-dialog">editing existing transformation
         scenarios</xref> or <xref
         href="defining-new-transformation-scenario.dita#defining-new-transformation-scenario"
-        >creating new ones</xref>. </p>
-    <p id="p_ffm_cgk_54b">To open this dialog box, use the <uicontrol><image href="../img/TransformConfig16.png"
-          id="image_hcv_gwv_sr"/>Configure Transformation Scenario(s) (<shortcut
-          conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_c_shortcut"
-          product="author developer editor"/><shortcut
-          conkeyref="reusable-oxygen-shortcuts-list/alt_shift_tc_shortcut"
-          product="authorEclipse developerEclipse editorEclipse"/>)</uicontrol> action from the
-      toolbar or the <menucascade product="author developer editor">
-        <uicontrol>Document</uicontrol>
-        <uicontrol>Transformation</uicontrol>
-      </menucascade><uicontrol product="authorEclipse developerEclipse editorEclipse"
-        >XML</uicontrol> menu.</p>
-    <p id="p_gfm_cgk_54b">
-      <fig id="figure-configure-transformation-scenario-oxygen">
+        >creating new ones</xref>.<fig id="figure-configure-transformation-scenario-oxygen">
         <title>Configure Transformation Scenario(s) Dialog Box</title>
-        <image href="../img/sa_scenario_list_dialog.png"/>
-      </fig>
-    </p>
+        <image href="../img/sa_scenario_list_dialog.png" id="image_l5y_2x1_4jc" scale="75"/>
+      </fig></p>
     <p id="p_hfm_cgk_54b">The dialog box includes the following options and features:</p>
     <p id="p_ifm_cgk_54b">
       <dl id="dl_jfm_cgk_54b">

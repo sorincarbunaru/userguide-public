@@ -22,26 +22,6 @@
                         <String>true</String>
                     </entry>
                     <entry>
-                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.insertion</String>
-                        <String>true</String>
-                    </entry>
-                    <entry>
-                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.whole.document</String>
-                        <String>true</String>
-                    </entry>
-                    <entry>
-                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.auto.validate.xml.fragments</String>
-                        <String>false</String>
-                    </entry>
-                    <entry>
-                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.enable.positron</String>
-                        <String>true</String>
-                    </entry>
-                    <entry>
-                        <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.load.default.actions</String>
-                        <String>true</String>
-                    </entry>
-                    <entry>
                         <String>PLUGIN_CUSTOM_OPTIONS.oxygen.positron.plugin.mcp.add.tools.all.chatmodes</String>
                         <String>true</String>
                     </entry>
@@ -696,7 +676,7 @@
                                                                         <Integer>7</Integer>
                                                                     </field>
                                                                     <field name="uri">
-                                                                        <String>${pdu}/rules/rules.sch</String>
+                                                                        <String>${pdu}/DITA/rules/rules.sch</String>
                                                                     </field>
                                                                 </validationUnitSchema>
                                                             </field>
@@ -759,7 +739,7 @@
                                                                         <Integer>7</Integer>
                                                                     </field>
                                                                     <field name="uri">
-                                                                        <String>${pdu}/rules/custom_checks.sch</String>
+                                                                        <String>${pdu}/DITA/rules/custom_checks.sch</String>
                                                                     </field>
                                                                 </validationUnitSchema>
                                                             </field>
@@ -9268,6 +9248,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                             <field name="showInSVGPane">
                                                 <Boolean>false</Boolean>
                                             </field>
+                                            <field name="showInJSONPane">
+                                                <Boolean>false</Boolean>
+                                            </field>
                                             <field name="showInResultSetPane">
                                                 <Boolean>false</Boolean>
                                             </field>
@@ -9437,6 +9420,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                                 <Boolean>false</Boolean>
                                             </field>
                                             <field name="showInSVGPane">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                            <field name="showInJSONPane">
                                                 <Boolean>false</Boolean>
                                             </field>
                                             <field name="showInResultSetPane">
@@ -9644,6 +9630,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                             <field name="showInSVGPane">
                                                 <Boolean>false</Boolean>
                                             </field>
+                                            <field name="showInJSONPane">
+                                                <Boolean>false</Boolean>
+                                            </field>
                                             <field name="showInResultSetPane">
                                                 <Boolean>false</Boolean>
                                             </field>
@@ -9840,6 +9829,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                                 <Boolean>false</Boolean>
                                             </field>
                                             <field name="showInSVGPane">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                            <field name="showInJSONPane">
                                                 <Boolean>false</Boolean>
                                             </field>
                                             <field name="showInResultSetPane">
@@ -11072,6 +11064,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -11153,6 +11148,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -11238,6 +11236,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -11321,6 +11322,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -11402,6 +11406,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -11639,6 +11646,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -11808,6 +11818,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -12088,6 +12101,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -12304,6 +12320,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -12614,6 +12633,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -12830,6 +12852,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -13150,6 +13175,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -13378,6 +13406,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -13604,6 +13635,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -13912,6 +13946,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -14216,6 +14253,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -14524,6 +14564,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -14828,6 +14871,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -15136,6 +15182,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -15440,6 +15489,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -15748,6 +15800,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -16052,6 +16107,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -16360,6 +16418,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -16664,6 +16725,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -16972,6 +17036,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -17276,6 +17343,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -17614,6 +17684,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -17890,6 +17963,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -17971,6 +18047,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">
@@ -18056,6 +18135,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -18139,6 +18221,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
                                 </field>
+                                <field name="showInJSONPane">
+                                    <Boolean>false</Boolean>
+                                </field>
                                 <field name="showInResultSetPane">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -18220,6 +18305,9 @@ self::image[empty(parent::imagemap)] or oxy:current-selected-element()[self::ima
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInJSONPane">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInResultSetPane">

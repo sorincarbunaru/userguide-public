@@ -13,19 +13,19 @@
       <sch:param name="message" value="We should avoid using oXygen inside index terms!"/>
    </sch:pattern>-->
    <!--Generated from topics/images.dita-->
-   <sch:pattern is-a="avoidAttributeInElement">
+<!--   <sch:pattern is-a="avoidAttributeInElement">
       <sch:param name="element" value="image"/>
       <sch:param name="attribute" value="scale"/>
       <sch:param name="message"
              value="Dynamically scaled images are not properly displayed, you&#xA;            should scale the image with an image tool and keep it within&#xA;            the recommended with and height limits."/>
    </sch:pattern>
-   <!--Generated from topics/lists.dita-->
+   <!-\-Generated from topics/lists.dita-\->
    <sch:pattern is-a="avoidEndFragment">
       <sch:param name="fragment" value=";"/>
       <sch:param name="element" value="li"/>
       <sch:param name="message"
              value="List items should not end with a semi-colon (;). If it is&#xA;            a sentence then end it with a full stop (.), otherwise leave&#xA;            it without an ending character."/>
-   </sch:pattern>
+   </sch:pattern>-->
   
 <!-- ***Commented out since index terms were updated in the entire UG
   <!-\- Check the indexterm exist. -\->

@@ -12,6 +12,7 @@
         <indexterm>Google Docs to DITA</indexterm>
         <indexterm>Markdown to DITA</indexterm>
         <indexterm>HTML to DITA</indexterm>
+        <indexterm>LaTeX to DITA</indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -119,11 +120,14 @@
         a DITA map with topics.</p>
     </section>
     <section id="section_sgm_jvl_dtb" product="author editor">
-      <title>Migrating LaTex to DITA</title>
-      <p>You may use a third-party application (such as <xref href="https://pandoc.org/"
-          format="html" scope="external">Pandoc</xref>) to convert LaTex content to Word or HTML.
-        Then, you can use the <xref href="batch-converter-addon.dita"><uicontrol>Oxygen's Batch
-            Documents Converter add-on</uicontrol></xref> to convert it to DITA XML.</p>
+      <title>Migrating LaTeX to DITA</title>
+      <p>The <xref href="batch-converter-addon.dita"><uicontrol>Oxygen's Batch Documents Converter
+            add-on</uicontrol></xref> provides a <uicontrol>LaTeX to DITA</uicontrol> conversion
+        that you can use to convert one or more LaTeX documents to DITA. You must install <xref
+          href="https://pandoc.org/" format="html" scope="external">Pandoc</xref> before you use
+        this conversion. For details, see the <xref
+          href="batch-converter-addon.dita#batch-converter-addon/latexToDita">LaTeX to DITA</xref>
+        conversion options.</p>
     </section>
     <section id="section_zv4_hy4_4gb">
       <title>Migrating Other Formats to DITA</title>

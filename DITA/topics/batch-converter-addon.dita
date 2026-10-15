@@ -56,6 +56,8 @@
         <li>Confluence to DITA</li>
         <li>DocBook to DITA</li>
         <li>OpenAPI to DITA</li>
+        <li>LaTeX to DITA (requires <xref href="https://pandoc.org" format="html" scope="external"
+            >Pandoc</xref>)</li>
         <li id="li_gtg_dgk_54b">JSON to XML</li>
         <li id="li_htg_dgk_54b">XML to JSON</li>
         <li id="li_itg_dgk_54b">JSON to YAML</li>
@@ -280,8 +282,8 @@
                 this option sets the maximum heading level that will be extracted as a DITA topic
                 file and referenced in the DITA map hierarchy.</p></dd>
             <dd>
-              <note id="note_i12_dfk_lrb">This option only applies to the HTML to DITA and Word to
-                DITA conversions.</note>
+              <note id="note_i12_dfk_lrb">This option only applies to the HTML to DITA, Word to
+                DITA, and LaTeX to DITA conversions.</note>
             </dd>
           </dlentry>
           <dlentry>
@@ -378,6 +380,38 @@
               'Operation', 'Callback', and 'Components' objects. These topics will be referenced in
               a DITA map. When this option is not selected, the output will be a single topic with
               nested topics.</dd>
+          </dlentry>
+          <dlentry id="latexToDita">
+            <dt>LaTeX to DITA</dt>
+            <dd>
+              <p>The <uicontrol>LaTeX to DITA</uicontrol> conversion converts LaTeX documents
+                  (<filepath>.tex</filepath>, <filepath>.latex</filepath>, or
+                  <filepath>.ltx</filepath>) to DITA. It uses <xref href="https://pandoc.org"
+                  format="html" scope="external">Pandoc</xref> to convert each LaTeX document to
+                HTML, then converts the HTML to DITA. You must install Pandoc before you use this
+                conversion.</p>
+              <p>By default, the converter runs the <codeph>pandoc</codeph> command found on the
+                  <codeph>PATH</codeph>. If Pandoc isn't on the <codeph>PATH</codeph>, set its
+                location in the <uicontrol>Pandoc executable</uicontrol> field from the
+                  <uicontrol>LaTeX to DITA</uicontrol> section of the <uicontrol>Batch Documents
+                  Converter</uicontrol> preferences page. You can use the
+                  <uicontrol>Browse</uicontrol> button to select the file.</p>
+              <p>Use the <uicontrol>Create DITA maps from LaTeX documents containing multiple
+                  sections</uicontrol> option from the conversion dialog box to choose the output
+                type. When you select this option, the converter creates a DITA topic for each
+                section of your LaTeX document and references the topics in a DITA map. When you
+                clear this option, the output is a single topic with nested topics or sections.</p>
+              <p>The following are some notes about the LaTeX to DITA conversion:</p>
+              <ul>
+                <li>The converter resolves the LaTeX <codeph>\input</codeph> and
+                    <codeph>\include</codeph> commands relative to the folder of each document.</li>
+                <li>The converter writes image references as absolute file URLs, so that they
+                  resolve from the output folder.</li>
+                <li>The converter keeps math as LaTeX source text.</li>
+                <li>If Pandoc doesn't finish converting a document in 5 minutes, the conversion of
+                  that document fails.</li>
+              </ul>
+            </dd>
           </dlentry>
         </dl>
       </p>

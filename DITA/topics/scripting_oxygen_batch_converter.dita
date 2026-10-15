@@ -22,6 +22,7 @@
         <li>Confluence to DITA</li>
         <li>DocBook to DITA</li>
         <li>OpenAPI to DITA</li>
+        <li>LaTeX to DITA</li>
         <li id="li_lnx_dgk_54b">JSON to XML </li>
         <li id="li_mnx_dgk_54b">JSON to YAML </li>
         <li id="li_nnx_dgk_54b">XML to JSON</li>
@@ -59,7 +60,8 @@
             <dt>-if inputFormat</dt>
             <dd>The format of the input files. The possible values are: <b>html</b>,
               <b>markdown</b>, <b>word</b>, <b>confluence</b>, <b>docbook</b>, <b>excel</b>,
-                <b>openapi</b>, <b>json</b>, <b>yaml</b>, or <b>xml</b>.</dd>
+                <b>openapi</b>, <b>latex</b> (or <b>tex</b>), <b>json</b>, <b>yaml</b>, or
+                <b>xml</b>.</dd>
           </dlentry>
           <dlentry id="dlentry_znx_dgk_54b">
             <dt>-o outputDirectory</dt>
@@ -100,6 +102,19 @@
         </menucascade> and choose to export it as HTML. The <filepath>index.html</filepath> file
         resulting from this process has to be provided in the <uicontrol>inputFiles</uicontrol>
         argument.</p>
+    </section>
+    <section id="section_latex_to_dita">
+      <title>LaTeX to DITA</title>
+      <p>The <uicontrol>LaTeX to DITA</uicontrol> conversion uses <xref href="https://pandoc.org"
+          format="html" scope="external">Pandoc</xref> to convert the LaTeX documents
+          (<filepath>.tex</filepath>, <filepath>.latex</filepath>, or <filepath>.ltx</filepath>) to
+        HTML, then converts the HTML to DITA. You must install Pandoc before you run this
+        conversion. The converter runs the <codeph>pandoc</codeph> command found on the
+          <codeph>PATH</codeph>, unless you set the <uicontrol>Pandoc executable</uicontrol> option
+        in the add-on preferences. To use a specific Pandoc location, set this option and pass the
+        settings file in the <uicontrol>converterSettingsFile</uicontrol> argument.</p>
+      <p>For example:</p>
+      <codeblock outputclass="language-bourne">sh scripts/batchConverter.sh -i /path/to/doc.tex -if latex -o /path/to/output -of dita</codeblock>
     </section>
   </body>
 </topic>

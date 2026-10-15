@@ -33,10 +33,13 @@
         </li>
         <li id="li_t2m_cgk_54b">Select the particular transformation scenario and click the
             <uicontrol>Duplicate</uicontrol> button at the bottom of the dialog box or from the
-          contextual menu.<note type="tip" id="note_u2m_cgk_54b">You could also select the scenario and the
-                <uicontrol><image href="../img/Copy16.png"/>Duplicate</uicontrol> button in the
+          contextual menu.<note type="tip" id="note_u2m_cgk_54b">You could also select the scenario
+            and the <uicontrol><image href="../img/Copy16.png"/>Duplicate</uicontrol> button in the
               <xref href="scenarios-view.dita#scenarios-view"><uicontrol>Transformation
-                Scenarios</uicontrol> view</xref> to achieve the same result.</note></li>
+                Scenarios</uicontrol> view</xref> to achieve the same result.</note><note
+            id="note_ktw_dch_xkc">You cannot edit built-in transformation scenarios directly. To
+            change one, duplicate it and edit the copy. The original built-in scenario stays
+            available and unchanged.</note></li>
       </ol></p>
     <p id="p_v2m_cgk_54b"><b>Result:</b> This will open an <uicontrol>Edit scenario</uicontrol> configuration dialog
       box that allows you to configure various options in several tabs, depending on the type of
